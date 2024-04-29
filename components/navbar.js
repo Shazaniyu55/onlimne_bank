@@ -23,9 +23,9 @@ function AdainNavBar() {
     <nav className="transition-opacity duration-200 w-full top-0 h-25 fixed lg:mb-8 bg-white backdrop-blur-3xl opacity-100 z-50">
       {/* top container */}
       <div className={` flex justify-center items-center pl-2 ... tracking-tight pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-              navbar ? 'block' : 'hidden'
+              navbar ? 'block ' : 'hidden'
             }`}>
-          <div className='container bg-blue-100 md:h-10'>
+          <div className='container bg-blue-100 md:h-10 '>
               <div className='grid grid-cols-2 gap-4'>
                       <div className=''>
                         <ul className='mt-2 items-center cursor-pointer  text-xs justify-center md:flex md:space-x-10 md:space-y-0'>
@@ -38,7 +38,7 @@ function AdainNavBar() {
                       </div>
 
 
-                      <div>
+                      <div className=''>
                       <ul className=' mt-2 items-center cursor-pointer text-xs justify-center space-y-4 md:flex md:space-x-10 md:space-y-0'>
                           <li className='text-blue-600 hover:text-blue-400'>Blog</li>
                           <li className='text-blue-600 hover:text-blue-400'>About Us</li>
