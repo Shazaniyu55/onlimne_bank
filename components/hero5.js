@@ -36,10 +36,10 @@ const Hero5 = () => {
         <div className="flex gap-5 md:gap-10 flex-col flex-1">
           <div className="flex flex-col gap-4">
 
-            <h2 className="text-3xl md:text-4xl font-bold text-center lg:text-left">
+            <h2 className="text-blue-700 text-3xl md:text-4xl font-bold text-center lg:text-left">
             Umwelt und Mobilität
             </h2>
-            <p>Wir setzen uns für Natur und Umwelt ein und fördern das Umweltbewusstsein der jungen ‎Generation. Dabei engagieren wir uns besonders für naturnahe Erlebniswelten und nachhaltige Mobilität.</p>
+            <p className="text-blue-600">Wir setzen uns für Natur und Umwelt ein und fördern das Umweltbewusstsein der jungen ‎Generation. Dabei engagieren wir uns besonders für naturnahe Erlebniswelten und nachhaltige Mobilität.</p>
           </div>
           <ServiceCard
             imgSrc='/svg/rhino.svg'

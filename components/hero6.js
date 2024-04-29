@@ -27,10 +27,10 @@ const Hero6 = () => {
         <div className="flex gap-5 md:gap-10 flex-col flex-1">
           <div className="flex flex-col gap-4">
 
-            <h2 className="text-3xl md:text-4xl font-bold text-center lg:text-left">
+            <h2 className="text-blue-700 text-3xl md:text-4xl font-bold text-center lg:text-left">
             Kultur und Szene
             </h2>
-            <p>Wir engagieren uns in den Bereichen Theater, Musik, Film und Kino, Literatur sowie Brauchtum. Dabei fühlen wir uns insbesondere etablierten Kulturinstitutionen und Zürcher Traditionen verbunden.</p>
+            <p className="text-blue-600">Wir engagieren uns in den Bereichen Theater, Musik, Film und Kino, Literatur sowie Brauchtum. Dabei fühlen wir uns insbesondere etablierten Kulturinstitutionen und Zürcher Traditionen verbunden.</p>
           </div>
           <ServiceCard
             imgSrc='/svg/rhino.svg'

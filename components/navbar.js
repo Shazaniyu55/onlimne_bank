@@ -38,7 +38,7 @@ function AdainNavBar() {
                       </div>
 
 
-                      <div className='mt-10'>
+                      <div className=''>
                       <ul className=' m-2 items-center cursor-pointer text-xs justify-center space-y-4 md:flex md:space-x-10 md:space-y-0'>
                           <li className='text-blue-600 hover:text-blue-400'>Blog</li>
                           <li className='text-blue-600 hover:text-blue-400'>About Us</li>
