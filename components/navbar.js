@@ -54,7 +54,7 @@ function AdainNavBar() {
         <div className={`mt-top-adjusted ${navbar ? 'adjust-left' : ''}`}>
           <div className="flex text-adainblack hover:text-estatelinkwhite items-center justify-between py-5">
             <a href="/" className="flex items-center">
-              <Image src="/svg/logo.svg" width={150} height={150} alt="Avista Beach Resort Logo" />
+              <Image src="/svg/logo.svg" width={150} height={150} alt="Zürcher Logo" />
             </a>
             <div className="md:hidden text-adainblack hover:text-estatelinkwhite">
               <button className="text-adainblack hover:text-adainwhite pt-2 rounded-md" onClick={handleClick}>
