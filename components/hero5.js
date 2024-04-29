@@ -19,13 +19,13 @@ const ServiceCard = ({ imgSrc, title, desc }) => {
   );
 };
 
-const Services = () => {
+const Hero5 = () => {
   return (
     <section className="relative  container px-5 md:px-16 mx-auto mt-10">
       <div className="flex gap-10 items-center flex-col lg:flex-row">
         <div className="relative w-full flex-1">
           <img
-            src='/img2.jpeg'
+            src='/img6.jpeg'
             width="300px"
             height="300px"
             alt="video banner"
@@ -63,4 +63,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Hero5;

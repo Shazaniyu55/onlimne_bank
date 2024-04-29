@@ -19,27 +19,18 @@ const ServiceCard = ({ imgSrc, title, desc }) => {
   );
 };
 
-const Services = () => {
+const Hero6 = () => {
   return (
     <section className="relative  container px-5 md:px-16 mx-auto mt-10">
-      <div className="flex gap-10 items-center flex-col lg:flex-row">
-        <div className="relative w-full flex-1">
-          <img
-            src='/img2.jpeg'
-            width="300px"
-            height="300px"
-            alt="video banner"
-            className="object-cover w-full"
-          />
-          
-        </div>
+      <div className="flex gap-10 items-center flex-col-reverse lg:flex-row">
+        
         <div className="flex gap-5 md:gap-10 flex-col flex-1">
           <div className="flex flex-col gap-4">
 
             <h2 className="text-3xl md:text-4xl font-bold text-center lg:text-left">
-            Umwelt und Mobilität
+            Kultur und Szene
             </h2>
-            <p>Wir setzen uns für Natur und Umwelt ein und fördern das Umweltbewusstsein der jungen ‎Generation. Dabei engagieren wir uns besonders für naturnahe Erlebniswelten und nachhaltige Mobilität.</p>
+            <p>Wir engagieren uns in den Bereichen Theater, Musik, Film und Kino, Literatur sowie Brauchtum. Dabei fühlen wir uns insbesondere etablierten Kulturinstitutionen und Zürcher Traditionen verbunden.</p>
           </div>
           <ServiceCard
             imgSrc='/svg/rhino.svg'
@@ -52,15 +43,31 @@ const Services = () => {
             desc="But do not worry - you can choose an English-speaking home cleaner at no extra cost. We have a no long-term contracts policy, even for regular cleaning services. Simply book a home cleaning service whenever you need one."
           />
 
-<ServiceCard
+      <ServiceCard
             imgSrc='/svg/rhino.svg'
             title="Secure Contents"
             desc="But do not worry - you can choose an English-speaking home cleaner at no extra cost. We have a no long-term contracts policy, even for regular cleaning services. Simply book a home cleaning service whenever you need one."
           />
+
+
         </div>
+
+        <div className="relative w-full flex-1">
+          <img
+            src='/img4.jpeg'
+            width="300px"
+            height="300px"
+            alt="video banner"
+            className="object-cover w-full"
+          />
+          
+        </div>
+
       </div>
+
+
     </section>
   );
 };
 
-export default Services;
+export default Hero6;
