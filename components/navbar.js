@@ -26,9 +26,9 @@ function AdainNavBar() {
               navbar ? 'block ' : 'hidden'
             }`}>
           <div className='container bg-blue-100 md:h-10 '>
-              <div className='grid grid-cols-2 gap-4'>
+              <div className='md:grid grid-cols-2 gap-4'>
                       <div className=''>
-                        <ul className='mt-2 items-center cursor-pointer  text-xs justify-center md:flex md:space-x-10 md:space-y-0'>
+                        <ul className='m-2  items-center cursor-pointer  text-xs justify-center md:flex md:space-x-10 md:space-y-0'>
                           <li className='text-blue-600 hover:text-blue-400'>Private</li>
                           <li className='text-blue-600 hover:text-blue-400'>Private Banking</li>
                           <li className='text-blue-600 hover:text-blue-400'>Pursue</li>
@@ -38,8 +38,8 @@ function AdainNavBar() {
                       </div>
 
 
-                      <div className=''>
-                      <ul className=' mt-2 items-center cursor-pointer text-xs justify-center space-y-4 md:flex md:space-x-10 md:space-y-0'>
+                      <div className='mt-10'>
+                      <ul className=' m-2 items-center cursor-pointer text-xs justify-center space-y-4 md:flex md:space-x-10 md:space-y-0'>
                           <li className='text-blue-600 hover:text-blue-400'>Blog</li>
                           <li className='text-blue-600 hover:text-blue-400'>About Us</li>
                           <li className='text-blue-600 hover:text-blue-400'>Events</li>
