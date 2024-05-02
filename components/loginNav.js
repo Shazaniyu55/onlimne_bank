@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 
 
-function AdainNavBar() {
+function LoginBar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [navbar, setNavbar] = useState(false);
   const [activeNavItem, setActiveNavItem] = useState('');
@@ -25,36 +25,14 @@ function AdainNavBar() {
       <div className={` flex justify-center items-center pl-2 ... tracking-tight pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
               navbar ? 'block ' : 'hidden'
             }`}>
-          <div className='container bg-blue-100 md:h-10 '>
-              <div className='md:grid grid-cols-2 gap-4'>
-                      <div className=''>
-                        <ul className='m-2  items-center cursor-pointer  text-xs justify-center md:flex md:space-x-10 md:space-y-0'>
-                          <li className='text-blue-600 hover:text-blue-400'>Private</li>
-                          <li className='text-blue-600 hover:text-blue-400'>Private Banking</li>
-                          <li className='text-blue-600 hover:text-blue-400'>Pursue</li>
-                          <li className='text-blue-600 hover:text-blue-400'>Institutional</li>
-                          <li className='text-blue-600 hover:text-blue-400'>Asset Management</li>
-                        </ul>
-                      </div>
-
-
-                      <div className=''>
-                      <ul className=' m-2 items-center cursor-pointer text-xs justify-center space-y-4 md:flex md:space-x-10 md:space-y-0'>
-                          <li className='text-blue-600 hover:text-blue-400'>Blog</li>
-                          <li className='text-blue-600 hover:text-blue-400'>About Us</li>
-                          <li className='text-blue-600 hover:text-blue-400'>Events</li>
-                          <li className='text-blue-600 hover:text-blue-400'>Jobs</li>
-                        </ul>
-                      </div>
-              </div>
-          </div>
+        
       </div>
 
       <div className="justify-between px-4 mx-auto lg:max-w-8xl md:items-center md:flex sm:px-8">
         <div className={`mt-top-adjusted ${navbar ? 'adjust-left' : ''}`}>
           <div className="flex text-adainblack hover:text-estatelinkwhite items-center justify-between py-5">
             <a href="/" className="flex items-center">
-              <Image src="/svg/logo.svg" width={150} height={150} alt="Zürcher Logo" />
+              <Image src="/svg/ebank.svg" width={170} height={150} alt="Zürcher Logo" />
             </a>
             <div className="md:hidden text-adainblack hover:text-estatelinkwhite">
               <button className="text-adainblack hover:text-adainwhite pt-2 rounded-md" onClick={handleClick}>
@@ -145,7 +123,7 @@ function AdainNavBar() {
                 <li className={` text-sm text-blue-600  ${activeNavItem === 'experiences' ? 'active' : ''}`}>
                   <div className="flex items-center">
                     <FiCreditCard className='mr-2' size={30}/> {/* Icon */}
-                    <Link href="/login" onClick={() => handleClick('experiences')}>
+                    <Link href="/contact" onClick={() => handleClick('experiences')}>
                       eBanking
                     </Link>
                   </div>
@@ -155,8 +133,15 @@ function AdainNavBar() {
           </div>
         </div>
       </div>
+
+      <div className='container bg-blue-700 lg:w-full md:h-10'>
+        <div>
+        <h1 className='text-white translate-x-20 p-2'>Login eBanking</h1>
+
+        </div>
+       </div>
     </nav>
   );
 }
 
-export default AdainNavBar;
+export default LoginBar;

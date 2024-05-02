@@ -1,21 +1,30 @@
 "use client";
+import {FaArrowRight} from 'react-icons/fa'
 
 
 const ServiceCard = ({ imgSrc, title, desc }) => {
   return (
     <div className="flex items-start gap-3 sm:gap-10 lg:w-[90%]">
-      <img
-        src={imgSrc}
-        width="60px"
-        height="60px"
-        alt="features"
-        className="mx-auto"
-      />
-      <div>
-        <h3 className="text-lg font-semibold mb-2">{title}</h3>
-        <p className="leading-loose">{desc}</p>
+    <img
+      src={imgSrc}
+      width="60px"
+      height="60px"
+      alt="features"
+      className=""
+    />
+    
+    <div>
+      
+      <h3 className="text-lg text-blue-600 font-semibold">{title}</h3>
+      <div className='flex justify-end'>
+      <FaArrowRight className="text-blue-500 " size={20}/>
+
       </div>
+    <section className="border-t border-blue-200 bg-black1 w-full">
+
+    </section>
     </div>
+  </div>
   );
 };
 

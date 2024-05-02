@@ -14,10 +14,13 @@ const ServiceCard = ({ imgSrc, title, desc }) => {
       
       <div>
         
-        <h3 className="text-lg text-blue-600 font-semibold mb-2">{title}</h3>
-        <FaArrowRight className="text-blue-500 translate-x-20" size={20}/>
-        <section className="border-t border-blue-200 bg-black1 ">
-        
+        <h3 className="text-lg text-blue-600 font-semibold">{title}</h3>
+        <div className='flex justify-end'>
+        <FaArrowRight className="text-blue-500 " size={20}/>
+
+        </div>
+      <section className="border-t border-blue-200 bg-black1 w-full">
+
       </section>
       </div>
     </div>
@@ -48,19 +51,16 @@ const Services = () => {
           </div>
           <ServiceCard
             imgSrc='/svg/rhino.svg'
-            title="Zoo Zürich"
-            desc="Have you relocated to Germany for just a few weeks, months or years? With a demanding job, and a busy life you may not have enough time to learn German."
+            title=" Zoo Zürich"
           />
           <ServiceCard
             imgSrc='/svg/rhino.svg'
             title="ZVV-Nachtnetz"
-            desc="But do not worry - you can choose an English-speaking home cleaner at no extra cost. We have a no long-term contracts policy, even for regular cleaning services. Simply book a home cleaning service whenever you need one."
           />
 
-<ServiceCard
+         <ServiceCard
             imgSrc='/svg/rhino.svg'
             title="Weitere Engagements"
-            desc="But do not worry - you can choose an English-speaking home cleaner at no extra cost. We have a no long-term contracts policy, even for regular cleaning services. Simply book a home cleaning service whenever you need one."
           />
         </div>
       </div>
