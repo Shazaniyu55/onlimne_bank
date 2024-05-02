@@ -78,58 +78,7 @@ function LoginBar() {
               navbar ? 'block' : 'hidden'
             }`}
           >
-            <div className=" space-x-4 text-lg">
-              <ul className="md:px-20 mb-4 mt-2 items-center pr-20 font-medium text-sm... justify-center space-y-4 md:flex md:space-x-10 md:space-y-0">
-                <li className={`text-sm text-blue-600 ${activeNavItem === 'about' ? 'active' : ''}`}>
-                  <div className="flex items-center ">
-                    <FiPhone className='mr-2' size={30}/> {/* Icon */}
-                    <Link href="/price" onClick={() => handleClick('about')}>
-                      Contact
-                    </Link>
-                  </div>
-                </li>
-                <li className={`text-sm text-blue-600 ${activeNavItem === 'experiences' ? 'active' : ''}`}>
-                  <div className="flex items-center">
-                    <FiHelpCircle className='mr-2' size={30}/> {/* Icon */}
-                    <Link href="/about" onClick={() => handleClick('experiences')}>
-                      Help
-                    </Link>
-                  </div>
-                </li>
-                <li className={`text-sm text-blue-600  ${activeNavItem === 'experiences' ? 'active' : ''}`}>
-                  <div className="flex items-center">
-                    <FiSearch className='mr-2' size={30}/> {/* Icon */}
-                    <Link href="/contact" onClick={() => handleClick('experiences')}>
-                      Search
-                    </Link>
-                  </div>
-                </li>
-                <li className={`text-sm text-blue-600 ${activeNavItem === 'experiences' ? 'active' : ''}`}>
-                  <div className="flex items-center">
-                    <FiMapPin className='mr-2' size={30}/> {/* Icon */}
-                    <Link href="/contact" onClick={() => handleClick('experiences')}>
-                      Locations
-                    </Link>
-                  </div>
-                </li>
-                <li className={`text-sm text-blue-600  ${activeNavItem === 'experiences' ? 'active' : ''}`}>
-                  <div className="flex items-center">
-                    <FiDollarSign className='mr-2' size={30}/> {/* Icon */}
-                    <Link href="/contact" onClick={() => handleClick('experiences')}>
-                      Financial Info
-                    </Link>
-                  </div>
-                </li>
-                <li className={` text-sm text-blue-600  ${activeNavItem === 'experiences' ? 'active' : ''}`}>
-                  <div className="flex items-center">
-                    <FiCreditCard className='mr-2' size={30}/> {/* Icon */}
-                    <Link href="/contact" onClick={() => handleClick('experiences')}>
-                      eBanking
-                    </Link>
-                  </div>
-                </li>
-              </ul>
-            </div>
+            {/* nav content here */}
           </div>
         </div>
       </div>

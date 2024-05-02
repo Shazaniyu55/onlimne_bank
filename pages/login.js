@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import LoginBar from "@/components/loginNav";
-
+import Link from "next/link";
 function Login() {
     const [isPasswordVisible, setIsPasswordVisible] = useState(false);
 
@@ -21,7 +21,7 @@ function Login() {
             <input
               type="email"
               placeholder="username"
-              className="border p-3 rounded-lg"
+              className="w-full px-4 py-2 text-base border-2 border-blue-800 rounded outline-none focus:ring-blue-500 focus:border-blue-500 focus:ring-1"
               id="email"
             />
 
@@ -30,7 +30,7 @@ function Login() {
       <input
         type={isPasswordVisible ? "text" : "password"}
         placeholder="Password"
-        className="w-full px-4 py-2 text-base border border-gray-300 rounded outline-none focus:ring-blue-500 focus:border-blue-500 focus:ring-1"
+        className="w-full px-4 py-2 text-base border-2 border-blue-800 rounded outline-none focus:ring-blue-500 focus:border-blue-500 focus:ring-1"
       />
       <div
         className="absolute inset-y-0 right-0 flex items-center px-4 text-gray-600"
@@ -39,10 +39,10 @@ function Login() {
         {isPasswordVisible ? (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            fill="none"
+            fill="#346BF2"
             viewBox="0 0 24 24"
             strokeWidth={1.5}
-            stroke="currentColor"
+            stroke="#F6F6F6"
             className="w-5 h-5"
           >
             <path
@@ -54,10 +54,10 @@ function Login() {
         ) : (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            fill="none"
+            fill="#346BF2 "
             viewBox="0 0 24 24"
             strokeWidth={1.5}
-            stroke="currentColor"
+            stroke="#F6F6F6"
             className="w-5 h-5"
           >
             <path
@@ -75,9 +75,15 @@ function Login() {
       </div>
     </div>
 
+    <div className='flex gap-2 '>
+        <Link href={'/signup'}>
+          <span className='text-blue-700 underline underline-offset-1'>Forgot your password?</span>
+        </Link>
+      </div>
+
             <button
             type="submit"
-              className="bg-blue-700 text-white font-bold p-3 rounded-lg uppercase hover:opacity-95 disabled:opacity-80"
+              className="bg-blue-700 hover:bg-blue-700 w-40 text-white font-bold py-2 px-4 rounded"
             >
               Next
             </button>
@@ -89,7 +95,7 @@ function Login() {
         <div className="md:container bg-blue-100 mt-20 p-8">
           <h1 className="text-blue-700 font-bold">Do you need support?</h1>
 
-          <div className="lg:grid lg:grid-cols-2 ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
 
               {/* first grid */}
               
