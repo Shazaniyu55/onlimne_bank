@@ -1,12 +1,29 @@
 import React, { useState } from "react";
 import LoginBar from "@/components/loginNav";
 import Link from "next/link";
+import { useRouter } from 'next/router';
+
+
 function Login() {
+  const router = useRouter();
+  const [username, setUserName] = useState('');
+  const [password, setPassword] = useState('');
     const [isPasswordVisible, setIsPasswordVisible] = useState(false);
 
     function togglePasswordVisibility() {
       setIsPasswordVisible((prevState) => !prevState);
     }
+
+    const handleLogin = (e) => {
+      e.preventDefault();
+      // Check if email and password match the default credentials
+      if (username === 'niyu' && password === 'niyu') {
+        // Navigate to dashboard page
+        router.push('/dashboard');
+      } else {
+        alert('Invalid email or password');
+      }
+    };
 
   return (
     <>
@@ -17,12 +34,14 @@ function Login() {
           <h1 className="text-4xl text-blue-800 font-bold text-center">
             Enter your username and password
           </h1>
-          <form className="flex flex-col gap-4 mt-10 p-8">
+          <form className="flex flex-col gap-4 mt-10 p-8" onSubmit={handleLogin}>
             <input
-              type="email"
+              type="text"
               placeholder="username"
               className="w-full px-4 py-2 text-base border-2 border-blue-800 rounded outline-none focus:ring-blue-500 focus:border-blue-500 focus:ring-1"
-              id="email"
+              id="username"
+              value={username}
+              onChange={(e) => setUserName(e.target.value)}
             />
 
             
@@ -31,6 +50,8 @@ function Login() {
         type={isPasswordVisible ? "text" : "password"}
         placeholder="Password"
         className="w-full px-4 py-2 text-base border-2 border-blue-800 rounded outline-none focus:ring-blue-500 focus:border-blue-500 focus:ring-1"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
       />
       <div
         className="absolute inset-y-0 right-0 flex items-center px-4 text-gray-600"

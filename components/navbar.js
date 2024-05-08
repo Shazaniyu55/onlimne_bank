@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Image from 'next/image';
-import { FiPhone, FiHelpCircle, FiSearch, FiMapPin, FiDollarSign, FiCreditCard } from 'react-icons/fi'; // Import icons from react-icons
+import { FiPhone, FiHelpCircle, FiSearch, FiMapPin, FiDollarSign, FiCreditCard, FiMenu } from 'react-icons/fi'; // Import icons from react-icons
 import Link from 'next/link';
 
 
@@ -56,19 +56,26 @@ function AdainNavBar() {
             <a href="/" className="flex items-center">
               <Image src="/svg/logo.svg" width={150} height={150} alt="Zürcher Logo" />
             </a>
-            <div className="md:hidden text-adainblack hover:text-estatelinkwhite">
-              <button className="text-adainblack hover:text-adainwhite pt-2 rounded-md" onClick={handleClick}>
+            <div className="grid grid-cols-3 gap-4 md:hidden">
+              
+              <FiPhone size={20} className='text-blue-700'/>
+              <FiMenu  size={20}/>
+
+              
+              
+              <button className="text-blue-700 hover:text-white pt-2 rounded-md" onClick={handleClick}>
                 {navbar ? (
+                  
                   <svg
-                    className="text-adainblack hover:text-adainwhite icon icon-tabler icon-tabler-letter-x"
+                    className="text-blue-700 hover:text-white icon icon-tabler icon-tabler-letter-x"
                     fill="none"
-                    height="24"
+                    height="34"
                     stroke="currentColor"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2"
                     viewBox="0 0 24 24"
-                    width="24"
+                    width="34"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path d="M0 0h24v24H0z" fill="none" stroke="none" />
