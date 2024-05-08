@@ -19,7 +19,7 @@ function Login() {
       // Check if email and password match the default credentials
       if (username === 'niyu' && password === 'niyu') {
         // Navigate to dashboard page
-        router.push('/dashboard');
+        router.push('admin/dashboard');
       } else {
         alert('Invalid email or password');
       }

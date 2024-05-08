@@ -2,15 +2,15 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Avatar, Button, Dropdown, Navbar, TextInput } from 'flowbite-react';
 import { AiOutlineSearch } from 'react-icons/ai';
 import Link from 'next/link';
-import {
-  updateStart,
-  updateSuccess,
-  updateFailure,
-  deleteUserStart,
-  deleteUserSuccess,
-  deleteUserFailure,
-  signoutSuccess,
-} from '../../../store/slice/userSlice';
+// import {
+//   updateStart,
+//   updateSuccess,
+//   updateFailure,
+//   deleteUserStart,
+//   deleteUserSuccess,
+//   deleteUserFailure,
+//   signoutSuccess,
+// } from '../../../store/slice/userSlice';
 import React, {useState} from 'react';
 
 export default function CardSetting() {
@@ -75,7 +75,7 @@ export default function CardSetting() {
         className='self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white'
       >
         <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white'>
-        {currentUser.username}
+          niyu
         </span>
         Profile
       </Link>
