@@ -83,10 +83,10 @@ function AdainNavBar() {
                     <line x1="17" x2="7" y1="4" y2="20" />
                   </svg>
                 ) : (
-                  <div className="text-blue-700 hover:text-estatelinkwhite">
+                  <div className="text-blue-700 hover:text-white">
                     <svg
                       width="21"
-                      height="8"
+                      height="12"
                       viewBox="0 0 21 8"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
