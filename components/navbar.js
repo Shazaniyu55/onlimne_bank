@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Image from 'next/image';
-import { FiPhone, FiHelpCircle, FiSearch, FiMapPin, FiDollarSign, FiCreditCard, FiMenu } from 'react-icons/fi'; // Import icons from react-icons
+import { FiPhone, FiHelpCircle, FiSearch, FiMapPin, FiDollarSign, FiCreditCard, FiMenu, FiMessageCircle } from 'react-icons/fi'; // Import icons from react-icons
 import Link from 'next/link';
 
 
@@ -56,14 +56,14 @@ function AdainNavBar() {
             <a href="/" className="flex items-center">
               <Image src="/svg/logo.svg" width={150} height={150} alt="Zürcher Logo" />
             </a>
-            <div className="grid grid-cols-3 gap-4 md:hidden">
-              
+            <div className="grid grid-cols-3 gap-4  md:hidden">
+             
               <FiPhone size={20} className='text-blue-700'/>
-              <FiMenu  size={20}/>
+              <FiMessageCircle className='text-blue-700' size={20}/>
 
               
               
-              <button className="text-blue-700 hover:text-white pt-2 rounded-md" onClick={handleClick}>
+              <button className="text-blue-700 hover:text-white pt-2 rounded-md fixed top-2 right-0 mt-4 mr-4 md:hidden" onClick={handleClick}>
                 {navbar ? (
                   
                   <svg

@@ -14,8 +14,8 @@ import Link from 'next/link';
 import React, {useState} from 'react';
 
 export default function CardSetting() {
-  const { currentUser,  error, loading} = useSelector((state) => state.user);
-  console.log(currentUser)
+  // const { currentUser,  error, loading} = useSelector((state) => state.user);
+  // console.log(currentUser)
 
   const dispatch = useDispatch();
 
@@ -40,27 +40,27 @@ export default function CardSetting() {
     }
     
 
-    try {
-      dispatch(updateStart());
-      const res = await fetch(`http://localhost:2600/api/user/update/${currentUser._id}`, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
-      const data = await res.json();
-      if (!res.ok) {
-        dispatch(updateFailure(data.message));
-        setUpdateUserError(data.message);
-      } else {
-        dispatch(updateSuccess(data));
-        setUpdateUserSuccess("User's profile updated successfully");
-      }
-    } catch (error) {
-      dispatch(updateFailure(error.message));
-      setUpdateUserError(error.message);
-    }
+    // try {
+    //   dispatch(updateStart());
+    //   const res = await fetch(`http://localhost:2600/api/user/update/${currentUser._id}`, {
+    //     method: 'PUT',
+    //     headers: {
+    //       'Content-Type': 'application/json',
+    //     },
+    //     body: JSON.stringify(formData),
+    //   });
+    //   const data = await res.json();
+    //   if (!res.ok) {
+    //     dispatch(updateFailure(data.message));
+    //     setUpdateUserError(data.message);
+    //   } else {
+    //     dispatch(updateSuccess(data));
+    //     setUpdateUserSuccess("User's profile updated successfully");
+    //   }
+    // } catch (error) {
+    //   dispatch(updateFailure(error.message));
+    //   setUpdateUserError(error.message);
+    // }
 
   }
 
@@ -93,7 +93,7 @@ export default function CardSetting() {
       </Button>
       <div className='flex gap-2 md:order-2'>
        
-        {currentUser ? (
+        {/* {currentUser ? (
           <Dropdown
             arrowIcon={false}
             inline
@@ -119,7 +119,7 @@ export default function CardSetting() {
               Sign In
             </Button>
           </Link>
-        )}
+        )} */}
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
@@ -216,7 +216,7 @@ export default function CardSetting() {
           outline
           
         >
-          {loading ? 'Loading...' : 'Update'}
+          submit
         </Button>
                 
            
