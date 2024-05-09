@@ -58,8 +58,8 @@ function AdainNavBar() {
             </a>
             <div className="grid grid-cols-3 gap-4  md:hidden">
              
-              <FiPhone size={20} className='text-blue-700'/>
-              <FiMessageCircle className='text-blue-700' size={20}/>
+              <FiPhone size={20} className='text-blue-700 -translate-y-0'/>
+              <FiMessageCircle className='text-blue-700  -translate-y-0' size={20}/>
 
               
               
