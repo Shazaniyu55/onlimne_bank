@@ -153,6 +153,66 @@ export default function Sidebar() {
           </ul>
 
 
+          <ul className="md:flex-col hover:bg-black md:min-w-full flex flex-col list-none">
+            <li className="items-center flex">
+              <FiBarChart className='mr-2 text-white' size={20} />
+              <Link href="/admin/dashboard">
+                <span
+                  className={
+                    "text-xs uppercase py-3 font-bold block " +
+                    (router.pathname.indexOf("/admin/dashboard") !== -1
+                      ? "text-lightBlue-500 hover:text-white"
+                      : "text-blueGray-700 hover:text-white")
+                  }
+                >
+                  Dashboard
+                </span>
+              </Link>
+            </li>
+            {/* Other navigation items */}
+          </ul>
+
+
+          <ul className="md:flex-col hover:bg-black md:min-w-full flex flex-col list-none">
+            <li className="items-center flex">
+              <FiBarChart className='mr-2 text-white' size={20} />
+              <Link href="/admin/dashboard">
+                <span
+                  className={
+                    "text-xs uppercase py-3 font-bold block " +
+                    (router.pathname.indexOf("/admin/dashboard") !== -1
+                      ? "text-lightBlue-500 hover:text-white"
+                      : "text-blueGray-700 hover:text-white")
+                  }
+                >
+                  Dashboard
+                </span>
+              </Link>
+            </li>
+            {/* Other navigation items */}
+          </ul>
+
+
+          <ul className="md:flex-col hover:bg-black md:min-w-full flex flex-col list-none">
+            <li className="items-center flex">
+              <FiBarChart className='mr-2 text-white' size={20} />
+              <Link href="/admin/dashboard">
+                <span
+                  className={
+                    "text-xs uppercase py-3 font-bold block " +
+                    (router.pathname.indexOf("/admin/dashboard") !== -1
+                      ? "text-lightBlue-500 hover:text-white"
+                      : "text-blueGray-700 hover:text-white")
+                  }
+                >
+                  Dashboard
+                </span>
+              </Link>
+            </li>
+            {/* Other navigation items */}
+          </ul>
+
+
           
 
 
