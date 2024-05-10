@@ -166,7 +166,7 @@ export default function Sidebar() {
               <button
                 onClick={handleSignout}
                 target="_blank"
-                className="cursor-pointer text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
+                className="bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
               >
                 Logout
               </button>
