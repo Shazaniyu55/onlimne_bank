@@ -30,6 +30,29 @@ export default function CardBarChart() {
           },
         ],
       },
+      options: {
+        maintainAspectRatio: false,
+        responsive: true,
+        title: {
+          display: false,
+          text: "Orders Chart",
+        },
+        tooltips: {
+          mode: "index",
+          intersect: false,
+        },
+        hover: {
+          mode: "nearest",
+          intersect: true,
+        },
+        legend: {
+          labels: {
+            fontColor: "rgba(0,0,0,.4)",
+          },
+          align: "end",
+          position: "bottom",
+        },
+      }
       
     };
     let ctx = document.getElementById("bar-chart").getContext("2d");
