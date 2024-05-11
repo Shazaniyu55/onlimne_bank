@@ -40,46 +40,29 @@ const UserDropdown = () => {
         ref={popoverDropdownRef}
         className={
           (dropdownPopoverShow ? "block " : "hidden ") +
-          "bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48"
+          "bg-blue-600 text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48"
         }
       >
         <a
           href="#pablo"
           className={
-            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap text-blueGray-700"
+            "text-sm py-2 mt-20 px-4 hover:bg-black font-normal block w-full whitespace-nowrap text-white"
           }
           onClick={(e) => e.preventDefault()}
         >
-          Action
+          Profile
         </a>
         <a
           href="#pablo"
           className={
-            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap  text-blueGray-700"
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap  text-white hover:bg-black"
           }
           onClick={(e) => e.preventDefault()}
         >
-          Another action
+          Setting
         </a>
-        <a
-          href="#pablo"
-          className={
-            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap  text-blueGray-700"
-          }
-          onClick={(e) => e.preventDefault()}
-        >
-          Something else here
-        </a>
-        <div className="h-0 my-2 border border-solid border-blueGray-100" />
-        <a
-          href="#pablo"
-          className={
-            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap  text-blueGray-700"
-          }
-          onClick={(e) => e.preventDefault()}
-        >
-          Seprated link
-        </a>
+       
+        
       </div>
     </>
   );

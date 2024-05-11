@@ -10,7 +10,7 @@ export default function CardTable({ color }) {
     <>
       <div
         className={
-          "relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded " +
+          "relative flex flex-col min-w-0 break-words mt-10 w-full mb-6 shadow-lg rounded " +
           (color === "light" ? "bg-secondary" : "bg-blueGray-700 text-white")
         }
       >

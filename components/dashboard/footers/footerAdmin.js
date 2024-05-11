@@ -1,13 +1,14 @@
 import React from "react";
 import CardBarChart from "../cards/cardBarChart";
-import CardSocialTraffic from "../cards/cardSocialTraffic";
-import CardLineChart from "../cards/cardLineChart";
+import CardTable from "../cards/cardTable";
+
 
 export default function FooterAdmin() {
   return (
     <>
       <CardBarChart/>
-
+      <CardTable/>
+      
 {/* <div className="flex flex-wrap">
         <div className="w-full xl:w-8/12 mb-12 xl:mb-0 px-4">
           <CardLineChart />
