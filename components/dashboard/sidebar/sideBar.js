@@ -120,10 +120,10 @@ export default function Sidebar() {
               <Link href="/admin/dashboard">
                 <span
                   className={
-                    "text-xs uppercase py-3 font-bold block " +
+                    "text-xs  py-3 font-bold block " +
                     (router.pathname.indexOf("/admin/dashboard") !== -1
-                      ? "text-lightBlue-500 hover:text-white"
-                      : "text-blueGray-700 hover:text-white")
+                      ? "text-white hover:text-white"
+                      : "text-white hover:text-white")
                   }
                 >
                   Dashboard
@@ -140,10 +140,10 @@ export default function Sidebar() {
               <Link href="/admin/dashboard">
                 <span
                   className={
-                    "text-xs uppercase py-3 font-bold block " +
+                    "text-xs  py-3 font-bold block " +
                     (router.pathname.indexOf("/admin/dashboard") !== -1
-                      ? "text-lightBlue-500 hover:text-white"
-                      : "text-blueGray-700 hover:text-white")
+                      ? "text-white hover:text-white"
+                      : "text-white hover:text-white")
                   }
                 >
                   My Account
@@ -159,10 +159,10 @@ export default function Sidebar() {
               <Link href="/admin/dashboard">
                 <span
                   className={
-                    "text-xs uppercase py-3 font-bold block " +
+                    "text-xs  py-3 font-bold block " +
                     (router.pathname.indexOf("/admin/dashboard") !== -1
-                      ? "text-lightBlue-500 hover:text-white"
-                      : "text-blueGray-700 hover:text-white")
+                      ? "text-white hover:text-white"
+                      : "text-white hover:text-white")
                   }
                 >
                   Account summary
@@ -180,10 +180,10 @@ export default function Sidebar() {
               <Link href="/admin/dashboard">
                 <span
                   className={
-                    "text-xs uppercase py-3 font-bold block " +
+                    "text-xs  py-3 font-bold block " +
                     (router.pathname.indexOf("/admin/dashboard") !== -1
-                      ? "text-lightBlue-500 hover:text-white"
-                      : "text-blueGray-700 hover:text-white")
+                      ? "text-white hover:text-white"
+                      : "text-white hover:text-white")
                   }
                 >
                   Send Money
@@ -200,10 +200,10 @@ export default function Sidebar() {
               <Link href="/admin/dashboard">
                 <span
                   className={
-                    "text-xs uppercase py-3 font-bold block " +
+                    "text-xs  py-3 font-bold block " +
                     (router.pathname.indexOf("/admin/dashboard") !== -1
-                      ? "text-lightBlue-500 hover:text-white"
-                      : "text-blueGray-700 hover:text-white")
+                      ? "text-white hover:text-white"
+                      : "text-white hover:text-white")
                   }
                 >
                   Virtual Card
