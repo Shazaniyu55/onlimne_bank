@@ -6,15 +6,11 @@ export default function CardBarChart() {
     let config = {
       type: "pie",
       data: {
-        // labels: [
-        //   "January",
-        //   "February",
-        //   "March",
-        //   "April",
-        //   "May",
-        //   "June",
-        //   "July",
-        // ],
+        labels: [
+          "Credit",
+          "Debit",
+          
+        ],
         datasets: [
           {
             label: new Date().getFullYear(),
@@ -42,7 +38,7 @@ export default function CardBarChart() {
   return (
     <>
       <div className="relative mt-40 flex flex-col bg-white  shadow-lg rounded">
-       
+       <p className="p-4 m-4">Balance Flow</p>
         <div className="p-4 flex-auto">
           {/* Chart */}
           <div className="relative h-30-px">
