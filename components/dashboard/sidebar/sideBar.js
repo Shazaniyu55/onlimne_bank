@@ -5,7 +5,7 @@ import {FaBars, FaTimes} from 'react-icons/fa'
 import { useDispatch, useSelector } from "react-redux";
 import NotificationDropdown from "../dropdowns/notificationDrowDown";
 import UserDropdown from "../dropdowns/userDropDown";
-import { FiPhone, FiBarChart } from 'react-icons/fi'; // Import icons from react-icons
+import { FiUser, FiBarChart, FiDollarSign, FiBook, FiCreditCard } from 'react-icons/fi'; // Import icons from react-icons
 
 // import {
 //   updateStart,
@@ -133,9 +133,10 @@ export default function Sidebar() {
             {/* Other navigation items */}
           </ul>
 
+         
           <ul className="md:flex-col hover:bg-black md:min-w-full flex flex-col list-none">
             <li className="items-center flex">
-              <FiBarChart className='mr-2 text-white' size={20} />
+              <FiUser className='mr-2 text-white' size={20} />
               <Link href="/admin/dashboard">
                 <span
                   className={
@@ -145,17 +146,16 @@ export default function Sidebar() {
                       : "text-blueGray-700 hover:text-white")
                   }
                 >
-                  Dashboard
+                  My Account
                 </span>
               </Link>
             </li>
             {/* Other navigation items */}
-          </ul>
-
+          </ul>       
 
           <ul className="md:flex-col hover:bg-black md:min-w-full flex flex-col list-none">
             <li className="items-center flex">
-              <FiBarChart className='mr-2 text-white' size={20} />
+              <FiDollarSign className='mr-2 text-white' size={20} />
               <Link href="/admin/dashboard">
                 <span
                   className={
@@ -165,7 +165,7 @@ export default function Sidebar() {
                       : "text-blueGray-700 hover:text-white")
                   }
                 >
-                  Dashboard
+                  Account summary
                 </span>
               </Link>
             </li>
@@ -173,9 +173,10 @@ export default function Sidebar() {
           </ul>
 
 
+          
           <ul className="md:flex-col hover:bg-black md:min-w-full flex flex-col list-none">
             <li className="items-center flex">
-              <FiBarChart className='mr-2 text-white' size={20} />
+              <FiBook className='mr-2 text-white' size={20} />
               <Link href="/admin/dashboard">
                 <span
                   className={
@@ -185,7 +186,7 @@ export default function Sidebar() {
                       : "text-blueGray-700 hover:text-white")
                   }
                 >
-                  Dashboard
+                  Send Money
                 </span>
               </Link>
             </li>
@@ -195,7 +196,7 @@ export default function Sidebar() {
 
           <ul className="md:flex-col hover:bg-black md:min-w-full flex flex-col list-none">
             <li className="items-center flex">
-              <FiBarChart className='mr-2 text-white' size={20} />
+              <FiCreditCard className='mr-2 text-white' size={20} />
               <Link href="/admin/dashboard">
                 <span
                   className={
@@ -205,12 +206,14 @@ export default function Sidebar() {
                       : "text-blueGray-700 hover:text-white")
                   }
                 >
-                  Dashboard
+                  Virtual Card
                 </span>
               </Link>
             </li>
             {/* Other navigation items */}
-          </ul>
+          </ul>        
+
+         
 
 
           

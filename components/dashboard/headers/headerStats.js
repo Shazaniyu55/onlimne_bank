@@ -17,7 +17,7 @@ export default function HeaderStats() {
               <div className="w-full lg:w-6/12 xl:w-3/12 px-4">
                 <CardStats
                   statSubtitle="Account Balance"
-                  statTitle="3000"
+                  statTitle="$5000000"
                   statArrow="up"
                   statPercent="3.48"
                   statPercentColor="text-emerald-500"
