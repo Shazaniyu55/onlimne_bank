@@ -51,7 +51,7 @@ export default function CardTable({ color }) {
                       : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
                   }
                 >
-                  Budget
+                  Amount
                 </th>
                 <th
                   className={
