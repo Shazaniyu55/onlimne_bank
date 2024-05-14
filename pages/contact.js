@@ -12,7 +12,7 @@ function Contact(){
 
 
             <div className='mt-4'>
-            <h1 className='text-4xl md:text-9xl font-bold text-center text-blue-700'>Find the right contact</h1>
+            <h1 className='text-4xl md:text-8xl font-bold text-center text-blue-700'>Find the right contact</h1>
 
 
 
