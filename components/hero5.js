@@ -13,7 +13,7 @@ const ServiceCard = ({ imgSrc, title, desc }) => {
         className=""
       />
       
-      <div>
+      <div className='flex-1'>
         
         <h3 className="text-lg text-blue-600 font-semibold">{title}</h3>
         <div className='flex justify-end'>
