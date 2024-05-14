@@ -112,7 +112,7 @@ function AdainNavBar() {
                 <li className={`text-sm text-blue-600 ${activeNavItem === 'about' ? 'active' : ''}`}>
                   <div className="flex items-center ">
                     <FiPhone className='mr-2' size={30}/> {/* Icon */}
-                    <Link href="/price" onClick={() => handleClick('about')}>
+                    <Link href="/contact" onClick={() => handleClick('about')}>
                       Contact
                     </Link>
                   </div>
@@ -120,7 +120,7 @@ function AdainNavBar() {
                 <li className={`text-sm text-blue-600 ${activeNavItem === 'experiences' ? 'active' : ''}`}>
                   <div className="flex items-center">
                     <FiHelpCircle className='mr-2' size={30}/> {/* Icon */}
-                    <Link href="/about" onClick={() => handleClick('experiences')}>
+                    <Link href="/" onClick={() => handleClick('experiences')}>
                       Help
                     </Link>
                   </div>
@@ -128,7 +128,7 @@ function AdainNavBar() {
                 <li className={`text-sm text-blue-600  ${activeNavItem === 'experiences' ? 'active' : ''}`}>
                   <div className="flex items-center">
                     <FiSearch className='mr-2' size={30}/> {/* Icon */}
-                    <Link href="/contact" onClick={() => handleClick('experiences')}>
+                    <Link href="/" onClick={() => handleClick('experiences')}>
                       Search
                     </Link>
                   </div>
@@ -136,7 +136,7 @@ function AdainNavBar() {
                 <li className={`text-sm text-blue-600 ${activeNavItem === 'experiences' ? 'active' : ''}`}>
                   <div className="flex items-center">
                     <FiMapPin className='mr-2' size={30}/> {/* Icon */}
-                    <Link href="/contact" onClick={() => handleClick('experiences')}>
+                    <Link href="/" onClick={() => handleClick('experiences')}>
                       Locations
                     </Link>
                   </div>
@@ -144,7 +144,7 @@ function AdainNavBar() {
                 <li className={`text-sm text-blue-600  ${activeNavItem === 'experiences' ? 'active' : ''}`}>
                   <div className="flex items-center">
                     <FiDollarSign className='mr-2' size={30}/> {/* Icon */}
-                    <Link href="/contact" onClick={() => handleClick('experiences')}>
+                    <Link href="/" onClick={() => handleClick('experiences')}>
                       Financial Info
                     </Link>
                   </div>
