@@ -29,7 +29,7 @@ const ServiceCard = ({ imgSrc, title, desc }) => {
 
 const Radio = () => {
   return (
-      <div className="flex items-center flex-col-reverse lg:flex-row">
+      <div className="mt-8 flex items-center flex-col-reverse lg:flex-row">
         
          
           <ServiceCard

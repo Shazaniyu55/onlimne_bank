@@ -18,10 +18,10 @@ function Contact(){
 
             <p className='text-sm font-bold text-center mt-10 text-blue-700'>Do you have a media inquiry, would you like to apply to us or are you interested in our sponsorship?</p>
 
-                <div className='grid grid-col-4 grid-flow-col gap-4 mt-10'>
+                <div className='md:grid grid-col-4 grid-flow-col gap-4 mt-10'>
                     {/* first grid */}
              
-                    <h1 className='text-4xl md:text-4xl font-bold text-center text-blue-700'>media</h1>
+                    <h1 className='text-4xl md:text-4xl font-bold text-blue-700'>media</h1>
                    <ContactHero4/>
                    <Radio/>
               
