@@ -27,13 +27,13 @@ const ServiceCard = ({ imgSrc, title, desc }) => {
   );
 };
 
-const ContactHero4 = () => {
+const Radio = () => {
   return (
       <div className="flex items-center flex-col-reverse lg:flex-row">
         
          
           <ServiceCard
-            imgSrc='/svg/micro.svg'
+            imgSrc='/svg/radio.svg'
             title="Media contacts"
            
           />
@@ -48,4 +48,4 @@ const ContactHero4 = () => {
   );
 };
 
-export default ContactHero4;
+export default Radio;

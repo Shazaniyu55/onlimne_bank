@@ -1,4 +1,5 @@
 import ContactHero4 from '@/components/contacthero';
+import Radio from '@/components/radio';
 import React from 'react'
 
 
@@ -21,7 +22,8 @@ function Contact(){
                     {/* first grid */}
              
                     <h1 className='text-4xl md:text-4xl font-bold text-center text-blue-700'>media</h1>
-                <ContactHero4/>
+                   <ContactHero4/>
+                   <Radio/>
               
 
 
