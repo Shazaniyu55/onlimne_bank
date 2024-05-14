@@ -54,12 +54,12 @@ const Services = () => {
             title=" Zoo Zürich"
           />
           <ServiceCard
-            imgSrc='/svg/rhino.svg'
+            imgSrc='/svg/train.svg'
             title="ZVV-Nachtnetz"
           />
 
          <ServiceCard
-            imgSrc='/svg/rhino.svg'
+            imgSrc='/svg/certi.svg'
             title="Weitere Engagements"
           />
         </div>

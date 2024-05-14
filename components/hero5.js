@@ -51,18 +51,18 @@ const Hero5 = () => {
             <p className="text-blue-600">Wir setzen uns für Natur und Umwelt ein und fördern das Umweltbewusstsein der jungen ‎Generation. Dabei engagieren wir uns besonders für naturnahe Erlebniswelten und nachhaltige Mobilität.</p>
           </div>
           <ServiceCard
-            imgSrc='/svg/rhino.svg'
+            imgSrc='/svg/shoe.svg'
             title="Smart Features"
             desc="Have you relocated to Germany for just a few weeks, months or years? With a demanding job, and a busy life you may not have enough time to learn German."
           />
           <ServiceCard
-            imgSrc='/svg/rhino.svg'
+            imgSrc='/svg/smile.svg'
             title="Secure Contents"
             desc="But do not worry - you can choose an English-speaking home cleaner at no extra cost. We have a no long-term contracts policy, even for regular cleaning services. Simply book a home cleaning service whenever you need one."
           />
 
 <ServiceCard
-            imgSrc='/svg/rhino.svg'
+            imgSrc='/svg/certi.svg'
             title="Secure Contents"
             desc="But do not worry - you can choose an English-speaking home cleaner at no extra cost. We have a no long-term contracts policy, even for regular cleaning services. Simply book a home cleaning service whenever you need one."
           />

@@ -42,18 +42,18 @@ const Hero6 = () => {
             <p className="text-blue-600">Wir engagieren uns in den Bereichen Theater, Musik, Film und Kino, Literatur sowie Brauchtum. Dabei fühlen wir uns insbesondere etablierten Kulturinstitutionen und Zürcher Traditionen verbunden.</p>
           </div>
           <ServiceCard
-            imgSrc='/svg/rhino.svg'
+            imgSrc='/svg/lab.svg'
             title="Smart Features"
             desc="Have you relocated to Germany for just a few weeks, months or years? With a demanding job, and a busy life you may not have enough time to learn German."
           />
           <ServiceCard
-            imgSrc='/svg/rhino.svg'
+            imgSrc='/svg/sky.svg'
             title="Secure Contents"
             desc="But do not worry - you can choose an English-speaking home cleaner at no extra cost. We have a no long-term contracts policy, even for regular cleaning services. Simply book a home cleaning service whenever you need one."
           />
 
       <ServiceCard
-            imgSrc='/svg/rhino.svg'
+            imgSrc='/svg/certi.svg'
             title="Secure Contents"
             desc="But do not worry - you can choose an English-speaking home cleaner at no extra cost. We have a no long-term contracts policy, even for regular cleaning services. Simply book a home cleaning service whenever you need one."
           />
