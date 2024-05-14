@@ -17,7 +17,7 @@ function Login() {
     const handleLogin = (e) => {
       e.preventDefault();
       // Check if email and password match the default credentials
-      if (username === 'niyu' && password === 'niyu') {
+      if (username === 'HondoBrookk' && password === 'Texas1346$$$') {
         // Navigate to dashboard page
         router.push('admin/dashboard');
       } else {
