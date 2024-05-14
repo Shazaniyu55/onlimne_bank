@@ -6,7 +6,7 @@ function Contact(){
     return(
         <div className='m-4 p-4'>
 
-            <p className='text-sm mt-10 font-bold text-center  text-blue-700'>Contact options for media, talent and sponsorship</p>
+            <p className='text-sm font-bold text-center  text-blue-700'>Contact options for media, talent and sponsorship</p>
 
 
             <div className=''>
