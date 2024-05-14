@@ -1,7 +1,8 @@
 import ContactHero4 from '@/components/contacthero';
 import Radio from '@/components/radio';
 import React from 'react'
-
+import Link from 'next/link';
+import {FaArrowRight} from 'react-icons/fa'
 
 function Contact(){
 
@@ -37,6 +38,18 @@ function Contact(){
             <div className="md:container bg-blue-200 m-10 p-4">
             <h1 className='text-4xl md:text-8xl font-bold text-blue-700'>Do you have a general concern?</h1>
                <p className="text-blue-800 mt-4">Then contact us quickly and easily using the online form.</p>
+
+
+               <br/>
+
+               <div className='flex justify-start'>
+                    
+                <Link href="/" className='text-blue-700 '>To contact form</Link>
+                <FaArrowRight className="text-blue-500 w-10 translate-y-1" size={20}/>
+               </div>
+
+
+
             </div>
             </div>
 
