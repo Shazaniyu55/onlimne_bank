@@ -37,7 +37,7 @@ function Contact(){
             {/* next container */}
 
             <div className='md:flex justify-end'>
-            <div className="md:container md:w-full bg-blue-200 md:m-10 p-4">
+            <div className="md:container md:w-full bg-blue-100 md:m-10 p-4">
              <Image src="/svg/chat.svg" alt='chat-bubbles' width={150} height={150}/>
 
             <h1 className='text-4xl md:text-8xl font-bold text-blue-700'>Do you have a general concern?</h1>
@@ -50,6 +50,49 @@ function Contact(){
                     
                 <Link href="/" className='text-blue-700 '>To contact form</Link>
                 <FaArrowRight className="text-blue-500 w-10 translate-y-1" size={20}/>
+               </div>
+
+
+
+            </div>
+            </div>
+
+            {/* next container */}
+
+            <div className='mt-4'>
+           
+
+                <div className='md:grid grid-col-4 grid-flow-col gap-4 mt-10'>
+                    {/* first grid */}
+             
+                    <h1 className='text-4xl md:text-4xl font-bold text-blue-700'>media</h1>
+                   <ContactHero4/>
+                   <Radio/>
+              
+
+
+                </div>
+                
+            </div>
+
+
+            {/* next section */}
+
+
+            <div className='md:flex justify-end'>
+            <div className="md:container md:w-full bg-blue-100 md:m-10 p-4">
+             <Image src="/svg/chat.svg" alt='chat-bubbles' width={150} height={150}/>
+
+            <h1 className='text-4xl md:text-8xl font-bold text-blue-700'>Do you have a general concern?</h1>
+
+               <div className='flex justify-start'>
+                    
+               <button
+                target="_blank"
+                className="bg-blue-700 mt-8 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              >
+                Logout
+              </button>
                </div>
 
 
