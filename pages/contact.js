@@ -37,7 +37,7 @@ function Contact(){
             {/* next container */}
 
             <div className='md:flex justify-end'>
-            <div className="md:container bg-blue-200 m-10 p-4">
+            <div className="md:container md:w-full bg-blue-200 md:m-10 p-4">
              <Image src="/svg/chat.svg" alt='chat-bubbles' width={150} height={150}/>
 
             <h1 className='text-4xl md:text-8xl font-bold text-blue-700'>Do you have a general concern?</h1>
