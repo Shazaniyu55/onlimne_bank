@@ -37,7 +37,7 @@ function Contact(){
 
             {/* next container */}
 
-            <div className='md:flex justify-end'>
+            <div className='md:flex justify-end mt-8'>
             <div className="md:container md:w-full bg-blue-100 md:m-10 p-4">
              <Image src="/svg/chat.svg" alt='chat-bubbles' width={150} height={150}/>
 
@@ -80,7 +80,7 @@ function Contact(){
             {/* next section */}
 
 
-            <div className='md:flex justify-end'>
+            <div className='md:flex justify-end mt-8'>
             <div className="md:container md:w-full bg-blue-100 md:m-10 p-4">
              <Image src="/svg/chat.svg" alt='chat-bubbles' width={150} height={150}/>
 
