@@ -3,6 +3,8 @@ import Radio from '@/components/radio';
 import React from 'react'
 import Link from 'next/link';
 import {FaArrowRight} from 'react-icons/fa'
+import Image from 'next/image';
+
 
 function Contact(){
 
@@ -36,6 +38,8 @@ function Contact(){
 
             <div className='md:flex justify-end'>
             <div className="md:container bg-blue-200 m-10 p-4">
+             <Image src="/svg/chat.svg" alt='chat-bubbles' width={150} height={150}/>
+
             <h1 className='text-4xl md:text-8xl font-bold text-blue-700'>Do you have a general concern?</h1>
                <p className="text-blue-800 mt-4">Then contact us quickly and easily using the online form.</p>
 

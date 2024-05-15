@@ -2,7 +2,7 @@
 import {FaArrowRight} from 'react-icons/fa'
 
 
-const ServiceCard = ({ imgSrc, title, desc }) => {
+const ServiceCard = ({ imgSrc, title, }) => {
   return (
     <div className=" gap-3 sm:gap-10 lg:w-[90%]">
       <img
