@@ -4,6 +4,7 @@ import React from 'react'
 import Link from 'next/link';
 import {FaArrowRight} from 'react-icons/fa'
 import Image from 'next/image';
+import Faq from '@/components/faq';
 
 
 function Contact(){
@@ -97,8 +98,19 @@ function Contact(){
 
 
 
+               
+
+
+
             </div>
             </div>
+
+                {/* faq secction */}
+            <div className='flex justify-center items-center'>
+            <Faq/>
+            </div>
+
+            
 
            
         </div>
