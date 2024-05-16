@@ -56,7 +56,7 @@ function AdainNavBar() {
             <a href="/" className="flex items-center">
               <Image src="/svg/logo.svg" width={150} height={150} alt="Zürcher Logo" />
             </a>
-            <div className={`grid grid-cols-3 gap-4   ${activeNavItem ? 'block' : 'hidden'}`}>
+            <div className={`grid grid-cols-3 gap-4 `}>
 
          
              <Link href="/contact">
