@@ -82,7 +82,7 @@ function Contact(){
 
             <div className='md:flex justify-end mt-8'>
             <div className="md:container md:w-full bg-blue-100 md:m-10 p-4">
-             <Image src="/svg/chat.svg" alt='chat-bubbles' width={150} height={150}/>
+             <Image src="/svg/light.svg" alt='chat-bubbles' width={150} height={150}/>
 
             <h1 className='text-4xl md:text-8xl font-bold text-blue-700'>Do you have a general concern?</h1>
 

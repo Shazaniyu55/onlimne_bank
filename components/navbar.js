@@ -56,9 +56,13 @@ function AdainNavBar() {
             <a href="/" className="flex items-center">
               <Image src="/svg/logo.svg" width={150} height={150} alt="Zürcher Logo" />
             </a>
-            <div className="grid grid-cols-3 gap-4  md:hidden">
-             
-              <FiPhone size={20} className='text-blue-700 -translate-y-0'/>
+            <div className={`grid grid-cols-3 gap-4   ${activeNavItem ? 'block' : 'hidden'}`}>
+
+         
+             <Link href="/contact">
+             <FiPhone size={20} className='text-blue-700 -translate-y-0'/>
+             </Link>
+              
               <FiMessageCircle className='text-blue-700  -translate-y-0' size={20}/>
 
               
