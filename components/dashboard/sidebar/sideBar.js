@@ -50,7 +50,7 @@ export default function Sidebar() {
           type="button"
           onClick={() => setCollapseShow("bg-secondary m-2 py-3 px-6")}
         >
-          <FaBars size={20}/>
+          <FaBars size={20} className="text-white"/>
         </button>
         {/* Brand */}
         <Link href="">
