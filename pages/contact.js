@@ -5,6 +5,7 @@ import Link from 'next/link';
 import {FaArrowRight} from 'react-icons/fa'
 import Image from 'next/image';
 import Faq from '@/components/faq';
+import Hero7 from '@/components/hero7';
 
 
 function Contact(){
@@ -67,7 +68,7 @@ function Contact(){
                     {/* first grid */}
              
                     <h1 className='text-4xl md:text-4xl font-bold text-blue-700'>media</h1>
-                   <ContactHero4/>
+                   <Hero7/>
                    <Radio/>
               
 
@@ -82,9 +83,9 @@ function Contact(){
 
             <div className='md:flex justify-end mt-8'>
             <div className="md:container md:w-full bg-blue-100 md:m-10 p-4">
-             <Image src="/svg/light.svg" alt='chat-bubbles' width={150} height={150}/>
+             <Image src="/svg/home.svg" alt='chat-bubbles' width={150} height={150}/>
 
-            <h1 className='text-4xl md:text-8xl font-bold text-blue-700'>Do you have a general concern?</h1>
+            <h1 className='text-4xl md:text-8xl font-bold text-blue-700'>Visit us at a branch near you</h1>
 
                <div className='flex justify-start'>
                     
@@ -92,7 +93,7 @@ function Contact(){
                 target="_blank"
                 className="bg-blue-700 mt-8 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
               >
-                Logout
+                Find a branch
               </button>
                </div>
 
