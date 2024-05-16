@@ -6,6 +6,7 @@ import {FaArrowRight} from 'react-icons/fa'
 import Image from 'next/image';
 import Faq from '@/components/faq';
 import Hero7 from '@/components/hero7';
+import Footer from '@/components/footer';
 
 
 function Contact(){
@@ -113,7 +114,7 @@ function Contact(){
 
             
 
-           
+           <Footer/>
         </div>
     );
 }

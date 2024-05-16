@@ -22,7 +22,7 @@ const Faq = () => {
       >
         <summary
           className="list-none text-center text-blue-600 font-semibold md:relative text-sm cursor-pointer pr-7"
-          >Who to call?
+          >Block credit cards and prepaid cards
           <div
             className="absolute top-0 right-0 bg-blue rounded-full px-1 py-0.5 cursor-pointer visible open:invisible"
           >
@@ -44,7 +44,7 @@ const Faq = () => {
           </div>
         </summary>
 
-                <table className='items-center w-full bg-transparent border-collapse'>
+                <table className='items-center mt-8 w-full bg-transparent border-collapse'>
                     <thead>
                         <tr>
                             <th className='text-sm text-blue-600'>Services</th>
@@ -55,8 +55,14 @@ const Faq = () => {
 
                     <tbody>
                         <tr>
-                            <th className='text-sm text-blue-600'>Kurt wagner</th>
-                            <th className='text-sm text-blue-600'>+234 9074235667</th>
+                            <th className='text-sm text-blue-600'>Blocking from within the country</th>
+                            <th className='text-sm text-blue-600'>	058 958 83 83</th>
+                        </tr>
+
+
+                        <tr>
+                            <th className='text-sm text-blue-600'>Blocking from abroad</th>
+                            <th className='text-sm text-blue-600'>		+41 58 958 83 83</th>
                         </tr>
                     </tbody>
                     
@@ -69,11 +75,11 @@ const Faq = () => {
       {/* second faq */}
 
       <details
-        className="border border-white rounded pt-2 pb-3 md:px-3 relative open:shadow-lg mb-1 bg-none open:bg-white duration-300"
+        className="border mt-8 border-white rounded pt-2 pb-3 md:px-3 relative open:shadow-lg mb-1 bg-none open:bg-white duration-300"
       >
         <summary
           className="list-none text-center text-blue-600 font-semibold md:relative text-sm cursor-pointer pr-7"
-          >Who to call?
+          >Block debit cards, account cards and car safe cards
           <div
             className="absolute top-0 right-0 bg-blue rounded-full px-1 py-0.5 cursor-pointer visible open:invisible"
           >
@@ -105,9 +111,15 @@ const Faq = () => {
                     </thead>
 
                     <tbody>
+                    <tr>
+                            <th className='text-sm text-blue-600'>Blocking from within the country</th>
+                            <th className='text-sm text-blue-600'>	058 958 83 83</th>
+                        </tr>
+
+
                         <tr>
-                            <th className='text-sm text-blue-600'>Kurt wagner</th>
-                            <th className='text-sm text-blue-600'>+234 9074235667</th>
+                            <th className='text-sm text-blue-600'>Blocking from abroad</th>
+                            <th className='text-sm text-blue-600'>		+41 58 958 83 83</th>
                         </tr>
                     </tbody>
                     
@@ -121,6 +133,8 @@ const Faq = () => {
       
       
     </div>
+
+
   </section>
   );
 };
