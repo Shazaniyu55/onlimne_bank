@@ -38,8 +38,13 @@ const Hero7 = () => {
            
           />
 
-    <ServiceCard
+       <ServiceCard
             imgSrc='/svg/parent.svg'
+            title="Media contacts"
+           
+          />
+        <ServiceCard
+            imgSrc='/svg/hand.svg'
             title="Media contacts"
            
           />

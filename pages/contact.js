@@ -27,7 +27,7 @@ function Contact(){
                 <div className='md:grid grid-col-4 grid-flow-col gap-4 mt-10'>
                     {/* first grid */}
              
-                    <h1 className='text-4xl md:text-4xl font-bold text-blue-700'>media</h1>
+                    <h1 className='text-4xl md:text-4xl font-bold text-blue-700'>Media</h1>
                    <ContactHero4/>
                    <Radio/>
               
@@ -68,9 +68,9 @@ function Contact(){
                 <div className='md:grid grid-col-4 grid-flow-col gap-4 mt-10'>
                     {/* first grid */}
              
-                    <h1 className='text-4xl md:text-4xl font-bold text-blue-700'>media</h1>
+                    <h1 className='text-4xl md:text-4xl font-bold text-blue-700'>Jobs and careere</h1>
                    <Hero7/>
-                   <Radio/>
+                   
               
 
 
