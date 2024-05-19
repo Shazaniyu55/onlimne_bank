@@ -30,24 +30,49 @@ function Private(){
 </div>
 
 
-        {/* container */}
+        {/* container1 */}
 
         <div className='md:flex justify-end mt-8'>
             <div className="md:container md:w-full bg-blue-100 md:m-10 p-4">
 
 
             <div className="grid md:grid-cols-2">
-            <Image src="/svg/family.svg" className="-translate-y-34" alt='chat-bubbles' width={350} height={250}/>
+            <Image src="/svg/family.svg" className="-translate-y-34" alt='chat-bubbles' width={450} height={450}/>
             <h1 className='text-4xl md:text-4xl font-bold text-blue-700'>What interests you today?</h1>
 
               
             </div>  
 
 
-               <div className='flex justify-start'>
-                    
-             
-               </div>
+          
+
+
+
+               
+
+
+
+            </div>
+            </div>
+
+
+            {/* container2 */}
+
+            <div className='md:flex justify-end mt-8'>
+            <div className="md:container md:w-full bg-blue-900 md:m-10 p-4">
+
+
+            <div className="grid md:grid-cols-2">
+            <h1 className='text-4xl md:text-4xl font-bold text-white'>Count on us</h1>
+
+
+            <Image src="/svg/female.svg" className="" alt='chat-bubbles' width={450} height={450}/>
+
+              
+            </div>  
+
+
+          
 
 
 
