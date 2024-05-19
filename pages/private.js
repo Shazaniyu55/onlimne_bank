@@ -62,14 +62,16 @@ function Private(){
             <div className="md:container md:w-full bg-blue-900 md:m-10 p-4">
 
 
-            <div className="grid md:grid-cols-2">
-            <h1 className='text-4xl md:text-4xl font-bold text-white'>Count on us</h1>
+            <div className="flex items-center space-x-4 text-blue-700">
+  <div className="flex-1">
+    <h1 className="text-4xl md:text-4xl font-bold text-white">Count on us</h1>
+    <p className="mt-4 text-4xl text-white">
+      Whether taxes, pensions or mortgages: with our practical calculators you will have an overview in just a few clicks.
+    </p>
+  </div>
+  <Image src="/svg/female.svg" alt='chat-bubbles' width={450} height={450} className="flex-none"/>
+</div>
 
-
-            <Image src="/svg/female.svg" className="" alt='chat-bubbles' width={450} height={450}/>
-
-              
-            </div>  
 
 
           
