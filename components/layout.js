@@ -9,7 +9,7 @@ const Layouts = ({ children, showNavbar, showFooter }) => {
   return (
     <div>
 
-      {showNavbar && <AdainNavBar/>}
+      {showNavbar && <AdainNavBar />}
       {children}
       {showFooter && <Footer/>}
       {/* <AdainNavBar/>
