@@ -95,7 +95,7 @@ function AdainNavBar() {
 
                   </>
                 ) : (
-                  <div className="flex items-center space-x-4 text-blue-700 hover:text-white">
+                  <div className="flex items-center space-x-8 text-blue-700 hover:text-white">
                   <Link href="/contact">
                     <FiPhone size={20} className='text-blue-700 -translate-y-0' />
                   </Link>
