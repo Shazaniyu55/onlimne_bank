@@ -2,7 +2,6 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { FiPhone, FiHelpCircle, FiSearch, FiMapPin, FiDollarSign, FiCreditCard, FiMenu, FiMessageCircle } from 'react-icons/fi'; // Import icons from react-icons
 import Link from 'next/link';
-import Translator from './googletranslate';
 
 
 
@@ -26,7 +25,7 @@ function AdainNavBar() {
       <div className={` flex justify-center items-center pl-2 ... tracking-tight pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
               navbar ? 'block ' : 'hidden'
             }`}>
-<Translator/>
+
               
           <div className='container bg-blue-100 md:h-10 '>
               <div className='md:grid grid-cols-2 gap-4'>
