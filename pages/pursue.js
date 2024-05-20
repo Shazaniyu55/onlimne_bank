@@ -6,6 +6,7 @@ import AdainNavBar from "@/components/navbar";
 import Footer from "@/components/dashboard/footers/footer";
 import Image from 'next/image';
 import ImageSlider from '@/components/imageslider';
+import Hero9 from '@/components/hero9';
 
 function Pursue(){
 
@@ -109,6 +110,40 @@ function Pursue(){
       };
 
 
+      const ServiceCard4 = ({ imgSrc }) => {
+        return (
+          <div className='md:flex justify-center mt-8'>
+          <div className="md:flex items-center space-x-4 text-blue-700">
+
+         
+         
+      
+            <div className='mt-4'>
+              <h1 className='text-4xl p-4 text-blue-900 font-bold'>Environmental leasing</h1>
+              <p className='text-blue-600 text-2xl m-4'>Would you like to lease environmentally <br/>friendly capital goods or invest in a resource-<br/>saving project? We support you with our<br/> sustainable capital goods leasing.</p>
+              <div className='flex mt-4'>
+              <p className='m-4'>inform now</p>
+              <FaArrowRight className="text-blue-500 w-4 cursor m-4" size={20}/>
+      
+              </div>
+      
+              </div>
+      
+              <img
+              src={imgSrc}
+              width="560px"
+              height="560px"
+              alt="features"
+              className="p-4"
+            />
+           
+           
+          </div>
+          </div>
+        );
+      };
+
+
     return(
         <>
 
@@ -201,6 +236,13 @@ function Pursue(){
 
             </div>
             </div>
+
+            <ServiceCard4 
+            imgSrc="/tesla.jpeg"
+            />
+
+
+            <Hero9/>
 
             <ImageSlider/>
 
