@@ -45,22 +45,24 @@ const Services = () => {
           <div className="flex flex-col gap-4">
 
             <h2 className="text-blue-700 text-3xl md:text-4xl font-bold text-center lg:text-left">
-            Umwelt und Mobilität
+            Environment and mobility
             </h2>
-            <p className="text-blue-600">Wir setzen uns für Natur und Umwelt ein und fördern das Umweltbewusstsein der jungen ‎Generation. Dabei engagieren wir uns besonders für naturnahe Erlebniswelten und nachhaltige Mobilität.</p>
+            <p className="text-blue-600">
+            We are committed to nature and the environment and promote environmental awareness among the young generation. We are particularly committed to natural worlds of experience and sustainable mobility.
+            </p>
           </div>
           <ServiceCard
             imgSrc='/svg/rhino.svg'
-            title=" Zoo Zürich"
+            title=" Zurich Zoo"
           />
           <ServiceCard
             imgSrc='/svg/train.svg'
-            title="ZVV-Nachtnetz"
+            title="ZVV night network"
           />
 
          <ServiceCard
             imgSrc='/svg/certi.svg'
-            title="Weitere Engagements"
+            title="Futher Engagements"
           />
         </div>
       </div>

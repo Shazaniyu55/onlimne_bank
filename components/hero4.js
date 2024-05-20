@@ -37,25 +37,25 @@ const Hero4 = () => {
           <div className="flex flex-col gap-4">
 
             <h2 className="text-blue-700 text-3xl md:text-4xl font-bold text-center lg:text-left">
-            Kultur und Szene
+            Culture and scene
             </h2>
-            <p className="text-blue-600">Wir engagieren uns in den Bereichen Theater, Musik, Film und Kino, Literatur sowie Brauchtum. Dabei fühlen wir uns insbesondere etablierten Kulturinstitutionen und Zürcher Traditionen verbunden.</p>
+            <p className="text-blue-600">We are involved in the areas of theater, music, film and cinema, literature and customs. We feel particularly connected to established cultural institutions and Zurich traditions.</p>
           </div>
           <ServiceCard
             imgSrc='/svg/mask.svg'
-            title="Smart Features"
-            desc="Have you relocated to Germany for just a few weeks, months or years? With a demanding job, and a busy life you may not have enough time to learn German."
+            title="Zurich Theaters"
+           
           />
           <ServiceCard
             imgSrc='/svg/glass.svg'
-            title="Secure Contents"
-            desc="But do not worry - you can choose an English-speaking home cleaner at no extra cost. We have a no long-term contracts policy, even for regular cleaning services. Simply book a home cleaning service whenever you need one."
+            title="Casino Theater Winthertur"
+          
           />
 
       <ServiceCard
             imgSrc='/svg/certi.svg'
-            title="Secure Contents"
-            desc="But do not worry - you can choose an English-speaking home cleaner at no extra cost. We have a no long-term contracts policy, even for regular cleaning services. Simply book a home cleaning service whenever you need one."
+            title="Futher Engagements"
+          
           />
 
 

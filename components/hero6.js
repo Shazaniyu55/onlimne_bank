@@ -37,25 +37,25 @@ const Hero6 = () => {
           <div className="flex flex-col gap-4">
 
             <h2 className="text-blue-700 text-3xl md:text-4xl font-bold text-center lg:text-left">
-            Kultur und Szene
+            Research and education
             </h2>
-            <p className="text-blue-600">Wir engagieren uns in den Bereichen Theater, Musik, Film und Kino, Literatur sowie Brauchtum. Dabei fühlen wir uns insbesondere etablierten Kulturinstitutionen und Zürcher Traditionen verbunden.</p>
+            <p className="text-blue-600">We are committed to entrepreneurial innovation and promote promising ideas and projects. In this way, we are helping to ensure that Zurich remains a nationally and internationally prosperous research and education location.</p>
           </div>
           <ServiceCard
             imgSrc='/svg/lab.svg'
-            title="Smart Features"
-            desc="Have you relocated to Germany for just a few weeks, months or years? With a demanding job, and a busy life you may not have enough time to learn German."
+            title="Excellence Foundation of the University of Zurich"
+            
           />
           <ServiceCard
             imgSrc='/svg/sky.svg'
-            title="Secure Contents"
-            desc="But do not worry - you can choose an English-speaking home cleaner at no extra cost. We have a no long-term contracts policy, even for regular cleaning services. Simply book a home cleaning service whenever you need one."
+            title="Zurich Center for Creative Economies (ZCCE)"
+           
           />
 
       <ServiceCard
             imgSrc='/svg/certi.svg'
-            title="Secure Contents"
-            desc="But do not worry - you can choose an English-speaking home cleaner at no extra cost. We have a no long-term contracts policy, even for regular cleaning services. Simply book a home cleaning service whenever you need one."
+            title="Further engagements"
+            
           />
 
 

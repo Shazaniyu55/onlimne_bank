@@ -38,7 +38,7 @@ function Private(){
 
                  
 
-                  <div className="md:relative w-full ">
+                  <div className="md:relative w-full flex-1">
                   <Image src="/img1.jpeg" alt='chat-bubbles' width={450} height={450} className="object-cover  w-full flex-none"/>
 
                   </div>

@@ -46,25 +46,25 @@ const Hero5 = () => {
           <div className="flex flex-col gap-4">
 
             <h2 className="text-blue-700 text-3xl md:text-4xl font-bold text-center lg:text-left">
-            Umwelt und Mobilität
+            sport and health
             </h2>
-            <p className="text-blue-600">Wir setzen uns für Natur und Umwelt ein und fördern das Umweltbewusstsein der jungen ‎Generation. Dabei engagieren wir uns besonders für naturnahe Erlebniswelten und nachhaltige Mobilität.</p>
+            <p className="text-blue-600">With us, Zurich stays on the move. We promote health and popular sports, paying particular attention to the areas of running, gymnastics and swinging.</p>
           </div>
           <ServiceCard
             imgSrc='/svg/shoe.svg'
-            title="Smart Features"
-            desc="Have you relocated to Germany for just a few weeks, months or years? With a demanding job, and a busy life you may not have enough time to learn German."
+            title="ZKB  Zurich Run Cup"
+         
           />
           <ServiceCard
             imgSrc='/svg/smile.svg'
-            title="Secure Contents"
-            desc="But do not worry - you can choose an English-speaking home cleaner at no extra cost. We have a no long-term contracts policy, even for regular cleaning services. Simply book a home cleaning service whenever you need one."
+            title="ASVZ"
+           
           />
 
 <ServiceCard
             imgSrc='/svg/certi.svg'
-            title="Secure Contents"
-            desc="But do not worry - you can choose an English-speaking home cleaner at no extra cost. We have a no long-term contracts policy, even for regular cleaning services. Simply book a home cleaning service whenever you need one."
+            title="Futher Engagements"
+          
           />
         </div>
       </div>
