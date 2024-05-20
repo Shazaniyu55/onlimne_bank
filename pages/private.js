@@ -4,6 +4,7 @@ import AdainNavBar from "@/components/navbar";
 import Footer from "@/components/dashboard/footers/footer";
 import Image from "next/image";
 import Hero8 from "@/components/hero8";
+import Hero9 from "@/components/hero9";
 
 
 
@@ -133,6 +134,9 @@ function Private(){
 
             </div>
             </div>
+
+
+            <Hero9/>
 
 
         </Layouts>
