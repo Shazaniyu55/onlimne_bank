@@ -62,20 +62,14 @@ function AdainNavBar() {
             </a>
             <div className={`grid grid-cols-3 gap-4 `}>
            
-
-           
-
-          
             
-             
-
               
               
-              <button className="text-blue-700 hover:text-white pt-2 rounded-md fixed top-2 right-0 mt-4 mr-4 md:hidden" onClick={handleClick}>
+              <div className="text-blue-700 hover:text-white pt-2 rounded-md fixed top-2 right-0 mt-4 mr-4 md:hidden" >
                 {navbar ? (
                   <>
                   
-           
+                  <button onClick={handleClick}>
                   <svg
                     className="text-blue-700 hover:text-white icon icon-tabler icon-tabler-letter-x"
                     fill="none"
@@ -92,14 +86,16 @@ function AdainNavBar() {
                     <line x1="7" x2="17" y1="4" y2="20" />
                     <line x1="17" x2="7" y1="4" y2="20" />
                   </svg>
+                  </button>
 
                   </>
                 ) : (
-                  <div className="flex items-center space-x-8 text-blue-700 hover:text-white">
+                  <div className="flex items-center space-x-4 text-blue-700 hover:text-white">
                   <Link href="/contact">
                     <FiPhone size={20} className='text-blue-700 -translate-y-0' />
                   </Link>
                   <FiMessageCircle size={20} className='text-blue-700 -translate-y-0' />
+                  <button onClick={handleClick}>
                   <svg
                     width="21"
                     height="12"
@@ -111,9 +107,10 @@ function AdainNavBar() {
                     <rect y="3" width="21" height="2" fill="#1B1919" />
                     <rect y="6" width="21" height="2" fill="#1B1919" />
                   </svg>
+                  </button>
                 </div>
                 )}
-              </button>
+              </div>
             </div>
           </div>
         </div>
