@@ -3,6 +3,7 @@ import React from "react"
 import AdainNavBar from "@/components/navbar";
 import Footer from "@/components/dashboard/footers/footer";
 import Image from "next/image";
+import Hero8 from "@/components/hero8";
 
 
 
@@ -27,8 +28,11 @@ function Private(){
                         Dealing with money takes learning. As the local<br /> bank, we support parents and children. With the<br /> free ZKB Banking kids package, children aged 10<br /> and over learn how to handle money independently.
                       </p>
 
-                      <button className="border border-white m-10 p-4 text-white">Learn More</button>
+                      <button className="border-4 border-white m-10 p-4 text-white">Learn More</button>
                   </div>
+
+
+                  
 
 
                  
@@ -42,6 +46,9 @@ function Private(){
 
                 </div>
               </div>
+
+
+              <Hero8/>
 
 
         {/* container1 */}
@@ -98,6 +105,18 @@ function Private(){
     <p className="mt-4 text-4xl text-white">
       Whether taxes, pensions or mortgages: with our practical calculators you will have an overview in just a few clicks.
     </p>
+
+    <select className="m-4 p-4 border-4 border-white bg-blue-900 text-white">
+        <option className="">What do you want to calculate</option>
+        <option className="">Saving calculator</option>
+
+        <option className="">Mortage calculator: Home buying</option>
+        <option className="">Mortage calculator: Home buying</option>
+        <option className="">Mortage calculator: Home buying</option>
+        <option className="">Mortage calculator: Home buying</option>
+        <option className="">Mortage calculator: Home buying</option>
+        <option className="">Mortage calculator: Home buying</option>
+    </select>
   </div>
           <Image src="/svg/female.svg" alt='chat-bubbles' width={450} height={450} className="flex-none"/>
 </div>
