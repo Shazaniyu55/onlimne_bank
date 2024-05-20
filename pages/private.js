@@ -20,7 +20,7 @@ function Private(){
 
 
                 <div className="md:flex items-center space-x-4 text-blue-700">
-                  <div className="flex-1">
+                  <div className="md:flex-1">
                   <h1 className="text-4xl md:text-4xl font-bold text-white">
                         Family is not always easily well,<br /> here we are.
                       </h1>
@@ -38,7 +38,7 @@ function Private(){
 
                  
 
-                  <div className="relative w-full flex-1">
+                  <div className="md:relative w-full ">
                   <Image src="/img1.jpeg" alt='chat-bubbles' width={450} height={450} className="object-cover  w-full flex-none"/>
 
                   </div>

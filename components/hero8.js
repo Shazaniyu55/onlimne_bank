@@ -11,7 +11,7 @@ const ServiceCard = ({ imgSrc, title, desc }) => {
         width="560px"
         height="560px"
         alt="features"
-        className=""
+        className="p-4"
       />
 
       <div className='mt-4'>
