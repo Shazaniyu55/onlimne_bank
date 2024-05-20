@@ -7,12 +7,11 @@ import Services from "@/components/hero3"
 import Hero4 from "@/components/hero4"
 import Hero5 from "@/components/hero5"
 import Hero6 from "@/components/hero6"
-import Translator from "@/components/googletranslate"
 
 export default function Home() {
   return (
     <Layouts showNavbar={AdainNavBar} showFooter={Footer}>
-      <Translator/>
+      
       <Hero/>
       <Hero2/>
       <Services/>
