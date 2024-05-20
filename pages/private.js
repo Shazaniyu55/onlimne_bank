@@ -13,21 +13,30 @@ function Private(){
 
         <Layouts showNavbar={AdainNavBar} showFooter={Footer}>
 
-<div className="grid md:grid-cols-2 mt-20">
-  <div className="w-full bg-blue-700 m-10 p-4 flex -translate-x-10">
-    <div className="flex-1 pr-10">
-      <h1 className="text-4xl md:text-4xl font-bold text-white">
-        Family is not always easily well,<br /> here we are.
-      </h1>
-      <p className="text-white mt-10">
-        Dealing with money takes learning. As the local<br /> bank, we support parents and children. With the<br /> free ZKB Banking kids package, children aged 10<br /> and over learn how to handle money independently.
-      </p>
-    </div>
-    <div className="flex-none w-1/3">
-      <img className="md:p-4 -translate-x-12 w-full" src="/img1.jpeg" alt="zkb_img" width="500px" height="500px"/>
-    </div>
-  </div>
-</div>
+                <div className='md:flex justify-end mt-20 w-full'>
+                  <div className="md:container bg-blue-900 md:m-10 p-4">
+
+
+                <div className="md:flex items-center space-x-4 text-blue-700">
+                  <div className="flex-1">
+                  <h1 className="text-4xl md:text-4xl font-bold text-white">
+                        Family is not always easily well,<br /> here we are.
+                      </h1>
+                      
+                      <p className="text-white mt-10">
+                        Dealing with money takes learning. As the local<br /> bank, we support parents and children. With the<br /> free ZKB Banking kids package, children aged 10<br /> and over learn how to handle money independently.
+                      </p>
+                  </div>
+
+                  <div className="relative w-full flex-1">
+                  <Image src="/img1.jpeg" alt='chat-bubbles' width={450} height={450} className="object-cover  w-full flex-none"/>
+
+                  </div>
+                </div>
+
+
+                </div>
+                            </div>
 
 
         {/* container1 */}
@@ -62,14 +71,14 @@ function Private(){
             <div className="md:container md:w-full bg-blue-900 md:m-10 p-4">
 
 
-            <div className="flex items-center space-x-4 text-blue-700">
+<div className="md:flex items-center space-x-4 text-blue-700">
   <div className="flex-1">
     <h1 className="text-4xl md:text-4xl font-bold text-white">Count on us</h1>
     <p className="mt-4 text-4xl text-white">
       Whether taxes, pensions or mortgages: with our practical calculators you will have an overview in just a few clicks.
     </p>
   </div>
-  <Image src="/svg/female.svg" alt='chat-bubbles' width={450} height={450} className="flex-none"/>
+          <Image src="/svg/female.svg" alt='chat-bubbles' width={450} height={450} className="flex-none"/>
 </div>
 
 
