@@ -26,7 +26,12 @@ function Private(){
                       <p className="text-white mt-10">
                         Dealing with money takes learning. As the local<br /> bank, we support parents and children. With the<br /> free ZKB Banking kids package, children aged 10<br /> and over learn how to handle money independently.
                       </p>
+
+                      <button className="border border-white m-10 p-4 text-white">Learn More</button>
                   </div>
+
+
+                 
 
                   <div className="relative w-full flex-1">
                   <Image src="/img1.jpeg" alt='chat-bubbles' width={450} height={450} className="object-cover  w-full flex-none"/>
