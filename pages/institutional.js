@@ -40,7 +40,7 @@ function Institute(){
             <div className="grid md:grid-cols-2 mt-20">
            
            <div className="md:container   bg-blue-700 m-10 p-4 -translate-x-10">
-                    <h1 className="text-8xl md:text-4xl font-bold text-white text-center lg:text-left">Products and services for institutional investors</h1>
+                    <h1 className="text-4xl md:text-4xl font-bold text-white text-center lg:text-left">Products and services for institutional investors</h1>
                         <p className="text-white">Zürcher Kantonalbank is a partner focused on long-term and trusting cooperation. We lead institutional clients to success with holistic products and first-class services.</p>
            </div>
 
@@ -51,10 +51,18 @@ function Institute(){
        </div>
 
 
-       <div className="md:container w-full p-4 bg-white ">
+       
+
+       <div className="md:container md:w-full p-4 bg-white ">
+        
                 <h1 className="text-5xl md:text-5xl text-black p-10 font-bold text-center lg:text-center text-blue-700">Your contact person at eye level</h1>
                 <p className="md:text-center text-blue-600 text-xl leading-normal">Whether you are a large company, canton or municipality, pension fund, foundation,<br/>asset manager or bank: we support you personally and offer you solutions tailored to your needs.<br/>You can rely on our proven processes, our innovative products, our inspiring advice and our award-winning research.</p>
             </div>
+
+     
+
+
+    
 
 
 
