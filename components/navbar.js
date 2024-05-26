@@ -40,7 +40,9 @@ function AdainNavBar() {
                           <li className='text-blue-600 hover:text-blue-400'>
                           <Link href="/pursue">Pursue</Link>
                           </li>
-                          <li className='text-blue-600 hover:text-blue-400'>Institutional</li>
+                          <li className='text-blue-600 hover:text-blue-400'>
+                            <Link href="/institutional">Institutional</Link>
+                          </li>
                           <li className='text-blue-600 hover:text-blue-400'>Asset Management</li>
                         </ul>
                       </div>
