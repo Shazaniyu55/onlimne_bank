@@ -84,18 +84,15 @@ function Institute(){
             </p>
           </div>
           <ServiceCard1
-            imgSrc='/svg/rhino.svg'
-            title=" Zurich Zoo"
+            imgSrc='/svg/eye.svg'
+            title=" View overview"
           />
           <ServiceCard1
-            imgSrc='/svg/train.svg'
-            title="ZVV night network"
+            imgSrc='/svg/stock.svg'
+            title="Capital market"
           />
 
-         <ServiceCard1
-            imgSrc='/svg/certi.svg'
-            title="Futher Engagements"
-          />
+        
         </div>
       </div>
     </section>
@@ -122,18 +119,15 @@ function Institute(){
             As a universal and cantonal bank, we know your needs from A to Z.            </p>
           </div>
           <ServiceCard1
-            imgSrc='/svg/rhino.svg'
-            title=" Zurich Zoo"
+            imgSrc='/svg/eye.svg'
+            title="  View overview"
           />
           <ServiceCard1
-            imgSrc='/svg/train.svg'
-            title="ZVV night network"
+            imgSrc='/svg/growth.svg'
+            title="Financing"
           />
 
-         <ServiceCard1
-            imgSrc='/svg/certi.svg'
-            title="Futher Engagements"
-          />
+         
         </div>
 
         <div className="relative w-full flex-1">
@@ -169,25 +163,21 @@ function Institute(){
           <div className="flex flex-col gap-4">
 
             <h2 className="text-blue-700 text-5xl md:text-5xl font-bold text-center lg:text-left">
-            Large companies
+            Pension funds
             </h2>
             <p className="text-blue-600">
-            Our experts will provide you with individual and first-class support.
-            </p>
+            We think and act long-term, offer very good services and market-driven performance.            </p>
           </div>
           <ServiceCard1
-            imgSrc='/svg/rhino.svg'
-            title=" Zurich Zoo"
+            imgSrc='/svg/eye.svg'
+            title="View overview"
           />
           <ServiceCard1
-            imgSrc='/svg/train.svg'
-            title="ZVV night network"
+            imgSrc='/svg/growth.svg'
+            title="Custody service"
           />
 
-         <ServiceCard1
-            imgSrc='/svg/certi.svg'
-            title="Futher Engagements"
-          />
+        
         </div>
       </div>
     </section>
