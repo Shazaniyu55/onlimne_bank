@@ -18,9 +18,9 @@ function AdainNavBar({ backgroundColor, imageSrc }) {
   };
 
   const bgColorClass = backgroundColor ? `bg-${backgroundColor}` : 'bg-white';
-  const textColorClass = backgroundColor === 'blue-700' ? 'text-white' : 'text-blue-600';
-  const hoverTextColorClass = backgroundColor === 'blue-700' ? 'hover:text-gray-300' : 'hover:text-blue-400';
-  const iconColorClass = backgroundColor === 'blue-700' ? 'text-white' : 'text-blue-700';
+  const textColorClass = backgroundColor === 'blue-900' ? 'text-white' : 'text-blue-600';
+  const hoverTextColorClass = backgroundColor === 'blue-900' ? 'hover:text-gray-300' : 'hover:text-blue-400';
+  const iconColorClass = backgroundColor === 'blue-900' ? 'text-white' : 'text-blue-700';
 
   return (
     <nav className={`transition-opacity duration-200 w-full top-0 h-25 fixed lg:mb-8 backdrop-blur-3xl opacity-100 z-50 ${bgColorClass}`}>

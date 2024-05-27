@@ -40,7 +40,7 @@ function About(){
         // <Layouts  showNavbar={AdainNavBar} showFooter={Footer}>
 
         <>
-            <AdainNavBar backgroundColor="blue-700" imageSrc="/zkb.svg"/>
+            <AdainNavBar backgroundColor="blue-900" imageSrc="/zkb.svg"/>
             <div className='md:flex justify-end mt-10 w-full'>
                   <div className="md:container w-full bg-blue-900 md:m-10 p-4">
 
