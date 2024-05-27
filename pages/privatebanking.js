@@ -55,7 +55,7 @@ function PrivateBanking(){
             <div className="md:flex justify-center items-center mt-20">
            
            <div className="md:container  bg-white m-10 p-4 -translate-x-10">
-           <h1 className="text-8xl md:text-8xl font-bold text-blue-800 text-center lg:text-left">Private banking</h1>
+           <h1 className="text-5xl md:text-5xl font-bold text-blue-800 text-center lg:text-left">Private banking</h1>
               <p className="text-blue-800 text-2xl md:m-4 md:p-4">Our focus is on you and your financial wishes. As the market-leading Zurich universal<br/> bank with an AAA rating, we are your reliable partner in all financial areas.</p>
            </div>
 
@@ -68,7 +68,7 @@ function PrivateBanking(){
        <div className="grid md:grid-cols-2 mt-20">
            
            <div className="md:container  bg-blue-900 m-10 p-4 -translate-x-10">
-           <h1 className="text-8xl md:text-8xl font-bold text-white text-center lg:text-left">
+           <h1 className="text-5xl md:text-5xl font-bold text-white text-center lg:text-left">
            Experience our private banking
            </h1>
               <p className="text-white m-4 p-4">
@@ -96,7 +96,7 @@ function PrivateBanking(){
            </div>
            
            <div className="md:container  bg-blue-900 m-10 p-4 -translate-x-10">
-           <h1 className="text-8xl md:text-8xl font-bold text-white text-center lg:text-left">
+           <h1 className="text-5xl md:text-5xl font-bold text-white text-center lg:text-left">
            Private banking advice
 
            </h1>
