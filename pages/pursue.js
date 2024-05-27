@@ -3,7 +3,7 @@ import {FaArrowRight} from 'react-icons/fa'
 import Layouts from "@/components/layout";
 import React from "react";
 import AdainNavBar from "@/components/navbar";
-import Footer from "@/components/dashboard/footers/footer";
+import Footer from '@/components/footer';
 import Image from 'next/image';
 import ImageSlider from '@/components/imageslider';
 import Hero9 from '@/components/hero9';
@@ -147,7 +147,7 @@ function Pursue(){
     return(
         <>
 
-        <Layouts  showNavbar={AdainNavBar} showFooter={Footer}>
+        <AdainNavBar  imageSrc="/svg/logo.svg"/>
 
             <ServiceCard 
             imgSrc="/work.jpeg"
@@ -246,7 +246,7 @@ function Pursue(){
 
             <ImageSlider/>
 
-        </Layouts>
+        <Footer/>
         
         </>
     );

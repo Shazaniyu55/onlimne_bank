@@ -10,15 +10,15 @@ import Hero6 from "@/components/hero6"
 
 export default function Home() {
   return (
-    <Layouts showNavbar={AdainNavBar} showFooter={Footer}>
-      
+    <>
+      <AdainNavBar imageSrc="/svg/logo.svg"/>
       <Hero/>
       <Hero2/>
       <Services/>
       <Hero4/>
       <Hero5/>
       <Hero6/>
-    
-    </Layouts>
+    <Footer/>
+    </>
   )
 }

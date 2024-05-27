@@ -1,9 +1,7 @@
 import React from 'react';
-import Layouts from '@/components/layout';
 import AdainNavBar from '@/components/navbar';
-import Footer from '@/components/dashboard/footers/footer';
 import {FaArrowRight} from 'react-icons/fa'
-
+import Footer from '@/components/footer';
 
 function Institute(){
 
@@ -35,7 +33,10 @@ function Institute(){
       
     //render items
         return(
-            <Layouts showNavbar={AdainNavBar} showFooter={Footer}>
+
+          <>
+
+            <AdainNavBar imageSrc="/svg/logo.svg"/>
 
             <div className="grid md:grid-cols-2 mt-20">
            
@@ -318,8 +319,11 @@ function Institute(){
     </section>
                 
 
+            <Footer/>
+            
 
-            </Layouts>
+
+            </>
         );
 }
 

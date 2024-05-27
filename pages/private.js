@@ -13,7 +13,7 @@ function Private(){
     return(
         <>
 
-        <Layouts showNavbar={AdainNavBar} showFooter={Footer}>
+        <AdainNavBar imageSrc="/svg/logo.svg"/>
 
                 <div className='md:flex justify-end mt-20 w-full'>
                   <div className="md:container bg-blue-900 md:m-10 p-4">
@@ -139,7 +139,7 @@ function Private(){
             <Hero9/>
 
 
-        </Layouts>
+        <Footer/>
 
         </>
     );

@@ -1,9 +1,8 @@
 "use client";
 import {FaArrowRight} from 'react-icons/fa'
-import Layouts from "@/components/layout";
 import React from "react";
 import AdainNavBar from "@/components/navbar";
-import Footer from "@/components/dashboard/footers/footer";
+import Footer from '@/components/footer';
 import ImageSlider from '@/components/imageslider';
 
 function PrivateBanking(){
@@ -48,7 +47,7 @@ function PrivateBanking(){
     return(
         <>
 
-        <Layouts showNavbar={AdainNavBar} showFooter={Footer}>
+        <AdainNavBar imageSrc="/svg/logo.svg"/>
 
             
 
@@ -136,7 +135,7 @@ function PrivateBanking(){
       <ImageSlider/>
                 
 
-        </Layouts>
+        <Footer/>
         
         </>
     );
