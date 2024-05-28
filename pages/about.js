@@ -9,7 +9,7 @@ function About(){
 
   const ServiceCard = ({ imgSrc, title, desc }) => {
     return (
-      <div className='md:flex justify-end mt-8'>
+      <div className='md:flex justify-center mt-8'>
       <div className="md:flex items-center space-x-4 text-blue-700">
          <img
           src={imgSrc}
@@ -20,10 +20,11 @@ function About(){
         />
   
         <div className='mt-4'>
-          <h1 className='text-4xl text-blue-900 font-bold'>Female Finance: That’s what matters</h1>
-          <p className='text-blue-600 text-2xl m-4'>Women are often faced with particular<br/> challenges when dealing with finances and<br/> provision. What is important about this? Set<br/> the course now and make the right decisions.</p>
+          <h1 className='text-4xl text-blue-900 font-bold'>Zurich Cantonal Music Festival</h1>
+          <p className='text-blue-600 text-2xl m-4'>
+On June 21, 2024, two bands will rock the<br/> festival tent in Urdorf - the SWISS Band and<br/> the Stubete Gäng. As a customer, you benefit<br/> from a 20% online discount.</p>
           <div className='flex mt-4'>
-          <p className='m-4'>Find out our tips</p>
+          <p className='m-4'>Discover more</p>
           <FaArrowRight className="text-blue-500 w-10 cursor m-4" size={20}/>
   
           </div>
@@ -77,10 +78,52 @@ function About(){
 
 
               <ServiceCard
-            imgSrc='/niyu.jpeg'
+            imgSrc='/parade.jpeg'
             title="Media contacts"
            
           />
+
+
+
+          
+<div className='md:flex justify-end mt-8'>
+<div className="md:container md:w-full bg-blue-100 md:m-10 p-4">
+
+<div className="md:flex items-center space-x-4 text-blue-700">
+<Image src="/workers.svg" className="-translate-y-34" alt='chat-bubbles' width={450} height={450}/>
+<div className="flex-1">
+<h1 className='text-4xl md:text-4xl font-bold text-blue-700'>What interests you today?</h1>
+<div className="grid grid-cols-2 gap-4 mt-8">
+
+                  <p className="font-bold text-2xl">Accounts and Cards</p>
+                  <p className="font-bold text-2xl">Invest sustainably</p>
+                  <p className="font-bold text-2xl">eBanking</p>
+                  <p className="font-bold text-2xl">Contact and Services</p>
+
+                  <p className="font-bold text-2xl">Mortgages</p>
+                  <p className="font-bold text-2xl">Locations and branches</p>
+
+                  <p className="font-bold text-2xl">3rd pillar</p>
+                  <p className="font-bold text-2xl">Offers for families</p>
+
+                  <p className="font-bold text-2xl">Perks</p>
+                
+              </div>
+  </div>
+</div>
+
+
+
+          
+
+
+
+               
+
+
+
+            </div>
+            </div>
 
 
           <Footer />
