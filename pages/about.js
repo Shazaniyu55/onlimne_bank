@@ -42,7 +42,7 @@ On June 21, 2024, two bands will rock the<br/> festival tent in Urdorf - the SWI
 
         <>
             <AdainNavBar backgroundColor="blue-900" imageSrc="/zkb.svg"/>
-            <div className='md:flex justify-end mt-14 w-full'>
+            <div className='md:flex justify-end mt-14 w-full bg-blue-900'>
                   <div className="md:container w-full bg-blue-900 md:m-10 p-4">
 
 
