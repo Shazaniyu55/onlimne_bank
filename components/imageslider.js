@@ -24,7 +24,7 @@ const ImageSlider = () => {
 
 
         <div>
-            <h1 className="text-blue-800 m-4 p-4">Blog posts that are interesting to you.</h1>
+            <h1 className="text-5xl font-bold text-blue-800 m-4 p-4">Blog posts that are interesting to you.</h1>
         </div>
 
     
