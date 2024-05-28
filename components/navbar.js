@@ -48,7 +48,7 @@ function AdainNavBar({ backgroundColor, imageSrc }) {
               <ul className={`m-2 items-center cursor-pointer text-xs justify-center space-y-4 md:flex md:space-x-10 md:space-y-0 ${textColorClass} ${hoverTextColorClass}`}>
                 <li>Blog</li>
                 <li>
-                  <Link href="/aboutUs">About Us</Link>
+                  <Link href="/about">About Us</Link>
                 </li>
                 <li>Events</li>
                 <li>Jobs</li>
