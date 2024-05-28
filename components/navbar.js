@@ -41,7 +41,10 @@ function AdainNavBar({ backgroundColor, imageSrc }) {
                 <li>
                   <Link href="/institutional">Institutional</Link>
                 </li>
-                <li>Asset Management</li>
+                <li>
+                  <Link href="/asset-management">Asset Management</Link>
+                  
+                  </li>
               </ul>
             </div>
             <div className=''>
