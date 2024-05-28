@@ -3,6 +3,7 @@ import Footer from '@/components/footer';
 import AdainNavBar from '@/components/navbar';
 import {FaArrowRight} from 'react-icons/fa'
 import Image from 'next/image';
+import ImageSlider from '@/components/imageslider';
 
 
 function About(){
@@ -95,18 +96,15 @@ On June 21, 2024, two bands will rock the<br/> festival tent in Urdorf - the SWI
 <h1 className='text-4xl md:text-4xl font-bold text-blue-700'>What interests you today?</h1>
 <div className="grid grid-cols-2 gap-4 mt-8">
 
-                  <p className="font-bold text-2xl">Accounts and Cards</p>
-                  <p className="font-bold text-2xl">Invest sustainably</p>
-                  <p className="font-bold text-2xl">eBanking</p>
-                  <p className="font-bold text-2xl">Contact and Services</p>
+                  <p className="font-bold text-2xl">Information and media</p>
+                  <p className="font-bold text-2xl">Jobs and careers</p>
+                  <p className="font-bold text-2xl">Sponsorship</p>
+                  <p className="font-bold text-2xl">Sustainability</p>
 
-                  <p className="font-bold text-2xl">Mortgages</p>
-                  <p className="font-bold text-2xl">Locations and branches</p>
+                  <p className="font-bold text-2xl">Investor relations</p>
+                  <p className="font-bold text-2xl">Our performance mandate</p>
 
-                  <p className="font-bold text-2xl">3rd pillar</p>
-                  <p className="font-bold text-2xl">Offers for families</p>
-
-                  <p className="font-bold text-2xl">Perks</p>
+                
                 
               </div>
   </div>
@@ -124,6 +122,9 @@ On June 21, 2024, two bands will rock the<br/> festival tent in Urdorf - the SWI
 
             </div>
             </div>
+
+
+            <ImageSlider/>
 
 
           <Footer />

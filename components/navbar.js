@@ -28,7 +28,7 @@ function AdainNavBar({ backgroundColor, imageSrc }) {
         <div className='container md:h-10'>
           <div className='md:grid grid-cols-2 gap-4'>
             <div className=''>
-              <ul className={`m-2 items-center cursor-pointer text-xs justify-center md:flex md:space-x-10 md:space-y-0 ${textColorClass} ${hoverTextColorClass}`}>
+              <ul className={`m-2 items-center cursor-pointer space-y-4  text-xs justify-center md:flex md:space-x-10 md:space-y-0 ${textColorClass} ${hoverTextColorClass}`}>
                 <li>
                   <Link href="/private">Private</Link>
                 </li>
