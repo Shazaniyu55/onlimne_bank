@@ -13,9 +13,9 @@ function Private(){
     return(
         <>
 
-        <AdainNavBar imageSrc="/svg/logo.svg"/>
+        <AdainNavBar imageSrc="/zkb.svg" backgroundColor="blue-900"/>
 
-                <div className='md:flex justify-end mt-20 w-full'>
+                <div className='md:flex justify-end mt-14 w-full bg-blue-900'>
                   <div className="md:container bg-blue-900 md:m-10 p-4">
 
 
@@ -39,7 +39,7 @@ function Private(){
                  
 
                   <div className="md:relative w-full flex-1">
-                  <Image src="/img1.jpeg" alt='chat-bubbles' width={450} height={450} className="object-cover  w-full flex-none"/>
+                  <Image src="/child.jpeg" alt='chat-bubbles' width={450} height={450} className="object-cover  w-full flex-none"/>
 
                   </div>
                 </div>
