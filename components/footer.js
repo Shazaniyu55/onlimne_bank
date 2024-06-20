@@ -1,3 +1,4 @@
+import React from 'react';
 import Link from 'next/link';
 import {FaFacebook, FaLinkedinIn, FaTwitter, FaInstagramSquare} from 'react-icons/fa'
 

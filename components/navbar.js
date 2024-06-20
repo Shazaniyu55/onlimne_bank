@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState } from 'react';
 import Image from 'next/image';
 import { FiPhone, FiHelpCircle, FiSearch, FiMapPin, FiDollarSign, FiCreditCard, FiMessageCircle } from 'react-icons/fi';

@@ -1,3 +1,4 @@
+import React from "react"
 import Layouts from "@/components/layout"
 import AdainNavBar from "@/components/navbar"
 import Footer from "@/components/footer"
