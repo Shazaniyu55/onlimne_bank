@@ -30,15 +30,15 @@ function AdainNavBar({ backgroundColor, imageSrc }) {
   return (
     <>
       {isModalOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white p-8 rounded-lg shadow-lg w-1/2">
-            <div className="flex justify-between items-center">
+        <div className="md:fixed md:inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="md:bg-white p-8 rounded-lg shadow-lg w-1/2">
+            <div className="md:flex justify-between items-center">
               <h2 className="text-xl font-bold">Search</h2>
               <button onClick={toggleModal} className="text-gray-600 hover:text-gray-800">
                 &times;
               </button>
             </div>
-            <input type="text" placeholder="Search..." className="w-full p-2 mt-4 border border-gray-300 rounded-md" />
+            <input type="text" placeholder="Search..." className="md:w-full p-2 mt-4 border border-gray-300 rounded-md" />
             <p className="mt-4 text-gray-600">Enter your search query to find what you're looking for.</p>
           </div>
         </div>
